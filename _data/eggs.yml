@@ -1,0 +1,1361 @@
+# file containing egg database.
+- id: '21.016'
+  name: MD SAXS GTPase associated center
+  shortname: MD SAXS GTPase ...
+  category: bio
+  keywords: metadynamics, RNA, folding, SAXS
+  shortkeywords: metadynamics, RNA, foldin...
+  contributor: Giovanni Bussi
+  doi: unpublished
+  path: eggs/21/016/
+  reference: 'unpublished'
+- id: '21.015'
+  name: Coarse-grained metadynamics and umbrella sampling simulations to investigate interactions of carbohydrate-binding modules with chitin
+  shortname: Coarse-grained ...
+  category: bio
+  keywords: metadynamics, umbrella sampling, coarse-grained, MARTINI, chitin, carbohydrate-binding module
+  shortkeywords: metadynamics, umbrella sa...
+  contributor: Gaston Courtade
+  doi: unpublished
+  path: eggs/21/015/
+  reference: 'unpublished'
+- id: '21.014'
+  name: how to determine statistically accurate conformational ensembles
+  shortname: how to determin...
+  category: bio
+  keywords: metadynamics, metainference, errors, cv, SAXS, ensemble determination
+  shortkeywords: metadynamics, metainferen...
+  contributor: Cristina Paissoni
+  doi: unpublished
+  path: eggs/21/014/
+  reference: 'unpublished'
+- id: '21.013'
+  name: Role of vibrational excitation in heterogeneous catalysis
+  shortname: Role of vibrati...
+  category: chemistry
+  keywords: catalysis, vibrational excitation, free energy barriers, dissociation, chemisorption
+  shortkeywords: catalysis, vibrational ex...
+  contributor: Kristof Bal
+  doi: unpublished
+  path: eggs/21/013/
+  reference: 'unpublished'
+- id: '21.012'
+  name: NMR-Guided Rational Engineering of Endocellulase from Acidothermus Cellulolyticus for Reducing Product Inhibition
+  shortname: NMR-Guided Rati...
+  category: bio
+  keywords: funnel metadynamics
+  shortkeywords: funnel metadynamics
+  contributor: Jim Pfaendtner
+  doi: unpublished
+  path: eggs/21/012/
+  reference: 'unpublished'
+- id: '21.011'
+  name: CmuMD simulations of NaCl(aq) at graphite
+  shortname: CmuMD simulatio...
+  category: chemistry
+  keywords: CmuMD, DFS clustering
+  shortkeywords: CmuMD, DFS clustering
+  contributor: Aaron Finney
+  doi: unpublished
+  path: eggs/21/011/
+  reference: 'unpublished'
+- id: '21.010'
+  name: Step by Step Strecker Amino Acid Synthesis from Ab Initio Prebiotic Chemistry
+  shortname: Step by Step St...
+  category: chemistry
+  keywords: Strecker reaction, free energy landscape, ab initio molecular dynamics, glycine, prebiotic synthesis
+  shortkeywords: Strecker reaction, free e...
+  contributor: Théo Magrino
+  doi: 10.1021/acs.jpclett.1c00194
+  path: eggs/21/010/
+  reference: 'T. Magrino, F. Pietrucci, A. M. Saitta, Step by Step Strecker Amino Acid Synthesis from Ab Initio Prebiotic Chemistry, The Journal of Physical Chemistry Letters 12, 2630–2637 (2021)'
+- id: '21.009'
+  name: Nucleation rates from small scale atomistic simulations and transition state theory
+  shortname: Nucleation rate...
+  category: materials
+  keywords: kinetics, free energy barriers, nucleation, droplets, metadynamics
+  shortkeywords: kinetics, free energy bar...
+  contributor: Kristof Bal
+  doi: unpublished
+  path: eggs/21/009/
+  reference: 'unpublished'
+- id: '21.008'
+  name: Multi-replica biased sampling for photoisomerization processes in conjugated polymers
+  shortname: Multi-replica b...
+  category: methods
+  keywords: metadynamics, FEP, replica-exchange
+  shortkeywords: metadynamics, FEP, replic...
+  contributor: Adriana Pietropaolo
+  doi: unpublished
+  path: eggs/21/008/
+  reference: 'unpublished'
+- id: '21.007'
+  name: Sampling enhancement by metadynamics driven by machine learning and de novo protein modelling
+  shortname: Sampling enhanc...
+  category: bio
+  keywords: metadynamics, machine learning, protein folding
+  shortkeywords: metadynamics, machine lea...
+  contributor: Vojtech Spiwok
+  doi: unpublished
+  path: eggs/21/007/
+  reference: 'unpublished'
+- id: '21.006'
+  name: OPES, On-the-fly Probability Enhanced Sampling Method
+  shortname: OPES, On-the-fl...
+  category: methods
+  keywords: opes, alanine dipeptide, well-tempered, multithermal, multiumbrella
+  shortkeywords: opes, alanine dipeptide, ...
+  contributor: Michele Invernizzi
+  doi: unpublished
+  path: eggs/21/006/
+  reference: 'unpublished'
+- id: '21.005'
+  name: Crystallization Collective Variable
+  shortname: Crystallization...
+  category: methods
+  keywords: Crystallization, Collective Variable, OPES, Structure Factor, Phase transitions, Deep-LDA
+  shortkeywords: Crystallization, Collecti...
+  contributor: Tarak Karmakar
+  doi: unpublished
+  path: eggs/21/005/
+  reference: 'unpublished'
+- id: '21.004'
+  name: Machine Learning and Enhanced Sampling Simulations for Computing the Potential of Mean Force and Standard Binding Free Energy
+  shortname: Machine Learnin...
+  category: bio
+  keywords: machine learning, well-tempered metadynamics, path collective variable, potential of mean force, standard binding free energy calculations, host-guest, protein-ligand unbinding
+  shortkeywords: machine learning, well-te...
+  contributor: Dorothea Gobbo
+  doi: unpublished
+  path: eggs/21/004/
+  reference: 'unpublished'
+- id: '21.003'
+  name: aSYN SAXS metainference
+  shortname: aSYN SAXS metai...
+  category: bio
+  keywords: metainference, SAXS
+  shortkeywords: metainference, SAXS
+  contributor: Kresten Lindorff-Larsen
+  doi: 10.1101/2021.01.15.426794
+  path: eggs/21/003/
+  reference: 'M. C. Ahmed et al., Refinement of α-synuclein ensembles against SAXS data: Comparison of force fields and methods,  (2021)'
+- id: '21.002'
+  name: Phase equilibrium of water with hexagonal and cubic ice using the SCAN functional
+  shortname: Phase equilibri...
+  category: materials
+  keywords: ice, water, SCAN, OPES, VES, multithermal, crystallization, environment similarity, refcv, reweighting
+  shortkeywords: ice, water, SCAN, OPES, V...
+  contributor: Pablo Piaggi
+  doi: unpublished
+  path: eggs/21/002/
+  reference: 'unpublished'
+- id: '21.001'
+  name: Substrate recognition and catalysis by glycosaminoglycan sulfotransferases
+  shortname: Substrate recog...
+  category: bio
+  keywords: metadynamics, well-tempered metadynamics, puckering, coordination
+  shortkeywords: metadynamics, well-temper...
+  contributor: Tarsis Ferreira
+  doi: unpublished
+  path: eggs/21/001/
+  reference: 'unpublished'
+- id: '21.000'
+  name: Uremic toxin time scale dynamics
+  shortname: Uremic toxin ti...
+  category: bio
+  keywords: uremic toxin, serum albumin, Time-structure Independent Components Analysis (tICA), Markov state models (MSMs)
+  shortkeywords: uremic toxin, serum album...
+  contributor: Jim Pfaendtner
+  doi: unpublished
+  path: eggs/21/000/
+  reference: 'unpublished'
+- id: '20.034'
+  name: Conformational Ensembles of Non-Coding Elements in the SARS-CoV-2 Genome from Molecular Dynamics Simulations
+  shortname: Conformational ...
+  category: bio
+  keywords: RNA, SARS-CoV-2, partial tempering
+  shortkeywords: RNA, SARS-CoV-2, partial ...
+  contributor: Sandro Bottaro
+  doi: unpublished
+  path: eggs/20/034/
+  reference: 'unpublished'
+- id: '20.033'
+  name: COVID-19 Spike protein opening transition mechanism
+  shortname: COVID-19 Spike ...
+  category: bio
+  keywords: EMMI, CryoEM, COVID-19, Spike, Metainference
+  shortkeywords: EMMI, CryoEM, COVID-19, S...
+  contributor: Faidon Brotzakis
+  doi: 10.26434/chemrxiv.13222073.v1
+  path: eggs/20/033/
+  reference: 'Z. F. Brotzakis, T. Lohr, M. Vendruscolo, Determination of Intermediate State Structures in the Opening Pathway of SARS-CoV-2 Spike Using Cryo-Electron Microscopy,  (2020)'
+- id: '20.032'
+  name: Modeling the thermodynamics of conformational isomerism in solution via unsupervised clustering, the case of Sildenafil
+  shortname: Modeling the th...
+  category: materials
+  keywords: clustering, conformational isomers
+  shortkeywords: clustering, conformationa...
+  contributor: Matteo Salvalaglio
+  doi: unpublished
+  path: eggs/20/032/
+  reference: 'unpublished'
+- id: '20.031'
+  name: Soft fluorescent nanoshuttles targeting receptors
+  shortname: Soft fluorescen...
+  category: chemistry
+  keywords: polymers, receptors, nanoparticles, fluorescent probes
+  shortkeywords: polymers, receptors, nano...
+  contributor: Adriana Pietropaolo
+  doi: unpublished
+  path: eggs/20/031/
+  reference: 'unpublished'
+- id: '20.030'
+  name: Converging experimental and computational views of the knotting mechanism of the smallest knotted protein
+  shortname: Converging expe...
+  category: bio
+  keywords: phi-values, transition state, knotted proteins
+  shortkeywords: phi-values, transition st...
+  contributor: Cristina Paissoni
+  doi: 10.1016/j.bpj.2021.03.032
+  path: eggs/20/030/
+  reference: 'C. Paissoni et al., Converging experimental and computational views of the knotting mechanism of a small knotted protein, Biophysical Journal (2021)'
+- id: '20.029'
+  name: High Conformational Flexibility of the E2F1/DP1/DNA complex
+  shortname: High Conformati...
+  category: bio
+  keywords: SAXS, protein-DNA complex, hySAXS, ensemble determination
+  shortkeywords: SAXS, protein-DNA complex...
+  contributor: Cristina Paissoni
+  doi: unpublished
+  path: eggs/20/029/
+  reference: 'unpublished'
+- id: '20.028'
+  name: Well-tempered metadynamics on wt/onc KRas-4B, binding on the anionic membrane
+  shortname: Well-tempered m...
+  category: bio
+  keywords: metadynamics, KRas-4B, anionic membrane
+  shortkeywords: metadynamics, KRas-4B, an...
+  contributor: Huixia Lu
+  doi: 10.1021/acs.jpclett.0c02809
+  path: eggs/20/028/
+  reference: 'H. Lu, J. Martí, Long-lasting Salt Bridges Provide the Anchoring Mechanism of Oncogenic Kirsten Rat Sarcoma Proteins at Cell Membranes, The Journal of Physical Chemistry Letters 11, 9938–9945 (2020)'
+- id: '20.027'
+  name: Allosteric Regulation of SARS-CoV-2 Protease. Towards Informed Structure-Based Drug Discovery
+  shortname: Allosteric Regu...
+  category: bio
+  keywords: SARS-CoV2, MPro, Covid-19, Molecular Dynamics, Metadynamics, Computer-Aided Drug Discovery
+  shortkeywords: SARS-CoV2, MPro, Covid-19...
+  contributor: Khaled Abdel-Maksoud
+  doi: 10.26434/chemrxiv.12967655.v2
+  path: eggs/20/027/
+  reference: 'K. Abdel-Maksoud, M. A. al-Badri, C. Lorenz, J. W. Essex, Allosteric Regulation of SARS-CoV-2 Protease: Towards Informed Structure-Based Drug Discovery,  (2020)'
+- id: '20.026'
+  name: Free energy calculations of the functional selectivity of 5-HT_2B-TS G protein-coupled receptor
+  shortname: Free energy cal...
+  category: bio
+  keywords: Metadynamics, Umbrella sampling
+  shortkeywords: Metadynamics, Umbrella sa...
+  contributor: Brandon Peters
+  doi: 10.1371/journal.pone.0243313
+  path: eggs/20/026/
+  reference: 'B. L. Peters, J. Deng, A. L. Ferguson, P. Garriga, Ed. Free energy calculations of the functional selectivity of 5-HT2B G protein-coupled receptor, PLOS ONE 15, e0243313 (2020)'
+- id: '20.025'
+  name: The role of water in host-guest interaction
+  shortname: The role of wat...
+  category: bio
+  keywords: ligand binding, water, opes, SAMPL5
+  shortkeywords: ligand binding, water, op...
+  contributor: Valerio Rizzi
+  doi: 10.1038/s41467-020-20310-0
+  path: eggs/20/025/
+  reference: 'V. Rizzi, L. Bonati, N. Ansari, M. Parrinello, The role of water in host-guest interaction, Nature Communications 12 (2021)'
+- id: '20.024'
+  name: Gaussian Mixture Based Enhanced Sampling (GAMBES)
+  shortname: Gaussian Mixtur...
+  category: methods
+  keywords: enhanced sampling, probability based sampling, chemical reactions, rate calculation, static bias
+  shortkeywords: enhanced sampling, probab...
+  contributor: Jayashrita Debnath
+  doi: 10.1021/acs.jpclett.0c01125
+  path: eggs/20/024/
+  reference: 'J. Debnath, M. Parrinello, Gaussian Mixture-Based Enhanced Sampling for Statics and Dynamics, The Journal of Physical Chemistry Letters 11, 5076–5080 (2020)'
+- id: '20.023'
+  name: metadynminer and metadynminer3d
+  shortname: metadynminer an...
+  category: methods
+  keywords: metadynamics, visualization, R
+  shortkeywords: metadynamics, visualizati...
+  contributor: Vojtech Spiwok
+  doi: unpublished
+  path: eggs/20/023/
+  reference: 'unpublished'
+- id: '20.022'
+  name: Unified Approach to Enhanced Sampling
+  shortname: Unified Approac...
+  category: methods
+  keywords: OPES, expanded ensembles, importance sampling
+  shortkeywords: OPES, expanded ensembles,...
+  contributor: Michele Invernizzi
+  doi: 10.1103/PhysRevX.10.041034
+  path: eggs/20/022/
+  reference: 'M. Invernizzi, P. M. Piaggi, M. Parrinello, Unified Approach to Enhanced Sampling, Physical Review X 10 (2020)'
+- id: '20.021'
+  name: Mapping the transition state for a binding reaction between ancient intrinsically disordered proteins.
+  shortname: Mapping the tra...
+  category: bio
+  keywords: phi-values, restrained MD, transition-state, protein folding, disordered proteins, protein evolution
+  shortkeywords: phi-values, restrained MD...
+  contributor: Cristina Paissoni
+  doi: 10.1074/jbc.RA120.015645
+  path: eggs/20/021/
+  reference: 'E. Karlsson et al., Mapping the transition state for a binding reaction between ancient intrinsically disordered proteins, Journal of Biological Chemistry 295, 17698–17712 (2020)'
+- id: '20.020'
+  name: Parallel Bias Metadynamics
+  shortname: Parallel Bias M...
+  category: methods
+  keywords: pbmetad, trp-cage, folding
+  shortkeywords: pbmetad, trp-cage, foldin...
+  contributor: Max Bonomi
+  doi: 10.1021/acs.jctc.5b00846
+  path: eggs/20/020/
+  reference: 'J. Pfaendtner, M. Bonomi, Efficient Sampling of High-Dimensional Free-Energy Landscapes with Parallel Bias Metadynamics, Journal of Chemical Theory and Computation 11, 5062–5067 (2015)'
+- id: '20.019'
+  name: Systematic finite-temperature reduction of crystal energy landscapes
+  shortname: Systematic fini...
+  category: materials
+  keywords: crystals, organics, structure prediction
+  shortkeywords: crystals, organics, struc...
+  contributor: Matteo Salvalaglio
+  doi: 10.1021/acs.cgd.0c00918
+  path: eggs/20/019/
+  reference: 'N. F. Francia, L. S. Price, J. Nyman, S. L. Price, M. Salvalaglio, Systematic Finite-Temperature Reduction of Crystal Energy Landscapes, Crystal Growth & Design 20, 6847–6862 (2020)'
+- id: '20.018'
+  name: Free energy barriers from biased molecular dynamics simulations
+  shortname: Free energy bar...
+  category: methods
+  keywords: kinetics, free energy barriers, chemical reactions, nucleation, metadynamics
+  shortkeywords: kinetics, free energy bar...
+  contributor: Kristof Bal
+  doi: 10.1063/5.0020240
+  path: eggs/20/018/
+  reference: 'K. M. Bal, S. Fukuhara, Y. Shibuta, E. C. Neyts, Free energy barriers from biased molecular dynamics simulations, The Journal of Chemical Physics 153, 114118 (2020)'
+- id: '20.017'
+  name: FISST
+  shortname: FISST
+  category: methods
+  keywords: FISST, force, peptide, sampling, tempering
+  shortkeywords: FISST, force, peptide, sa...
+  contributor: Glen Hocky
+  doi: 10.1063/5.0009280
+  path: eggs/20/017/
+  reference: 'M. J. Hartmann, Y. Singh, E. Vanden-Eijnden, G. M. Hocky, Infinite switch simulated tempering in force (FISST), The Journal of Chemical Physics 152, 244120 (2020)'
+- id: '20.016'
+  name: Predicting polymorphism in molecular crystals using orientational entropy
+  shortname: Predicting poly...
+  category: materials
+  keywords: metadynamics, polymorphism, urea, naphthalene, g(r), pair correlation, entropy
+  shortkeywords: metadynamics, polymorphis...
+  contributor: Pablo Piaggi
+  doi: 10.1073/pnas.1811056115
+  path: eggs/20/016/
+  reference: 'P. M. Piaggi, M. Parrinello, Predicting polymorphism in molecular crystals using orientational entropy, Proceedings of the National Academy of Sciences 115, 10251–10256 (2018)'
+- id: '20.015'
+  name: Structural basis for stereospecific inhibition of ASCT2 from rational design
+  shortname: Structural basi...
+  category: bio
+  keywords: ASCT2 transporter, small-molecules, cryo-EM, metainference
+  shortkeywords: ASCT2 transporter, small-...
+  contributor: Max Bonomi
+  doi: 10.1101/2020.05.29.124305
+  path: eggs/20/015/
+  reference: 'R.-A. A. Garibsingh et al., Structural basis for stereospecific inhibition of ASCT2 from rational design,  (2020)'
+- id: '20.014'
+  name: amyloid beta small molecule interaction
+  shortname: amyloid beta sm...
+  category: bio
+  keywords: intrinsically disordered proteins, disordered proteins, IDPs, fuzzy binding, small molecule, drugs, entropy, binding, Alzheimer's disease, amyloid beta
+  shortkeywords: intrinsically disordered ...
+  contributor: Gabriella Heller
+  doi: 10.1126/sciadv.abb5924
+  path: eggs/20/014/
+  reference: 'G. T. Heller et al., Small-molecule sequestration of amyloid-β as a drug discovery strategy for Alzheimer’s disease, Science Advances 6, eabb5924 (2020)'
+- id: '20.013'
+  name: Improving accuracy of biased Alchemistic simulations
+  shortname: Improving accur...
+  category: methods
+  keywords: flying Gaussian method, Alchemistic simulations, thermodynamic integration, reweighting
+  shortkeywords: flying Gaussian method, A...
+  contributor: Vojtech Spiwok
+  doi: 10.1016/j.cplett.2020.138012
+  path: eggs/20/013/
+  reference: 'D. Trapl, C. C. del Río, P. Kříž, V. Spiwok, Prediction of pKa in a system with high orthogonal barriers: Alchemical flying Gaussian method, Chemical Physics Letters 760, 138012 (2020)'
+- id: '20.012'
+  name: Combining Machine Learning and Enhanced Sampling Techniques for Efficient and Accurate Calculation of Absolute Binding Free Energies
+  shortname: Combining Machi...
+  category: bio
+  keywords: metadynamics, well-tempered ensemble, ligand binding, binding affinity calculations, novel COLVAR, funnel restraints, Hamiltonian replica-exchange, PathCV, COMetPath, SWISH
+  shortkeywords: metadynamics, well-temper...
+  contributor: Francesco Gervasio
+  doi: 10.1021/acs.jctc.0c00075
+  path: eggs/20/012/
+  reference: 'R. Evans et al., Combining Machine Learning and Enhanced Sampling Techniques for Efficient and Accurate Calculation of Absolute Binding Free Energies, Journal of Chemical Theory and Computation 16, 4641–4654 (2020)'
+- id: '20.011'
+  name: Uremic toxin analysis
+  shortname: Uremic toxin an...
+  category: bio
+  keywords: metadynamics, uremic toxin, serum albumin
+  shortkeywords: metadynamics, uremic toxi...
+  contributor: Jim Pfaendtner
+  doi: 10.1021/acs.jpcb.0c02015
+  path: eggs/20/011/
+  reference: 'J. Smith, J. Pfaendtner, Elucidating the Molecular Interactions between Uremic Toxins and the Sudlow II Binding Site of Human Serum Albumin, The Journal of Physical Chemistry B 124, 3922–3930 (2020)'
+- id: '20.010'
+  name: Phase equilibrium of liquid water and hexagonal ice from enhanced sampling molecular dynamics simulations
+  shortname: Phase equilibri...
+  category: materials
+  keywords: water, ice, TIP4P, crystallization, EnvironmentSimilarity, RefCV, kernel, VES, variationally enhanced sampling
+  shortkeywords: water, ice, TIP4P, crysta...
+  contributor: Pablo Piaggi
+  doi: 10.1063/5.0011140
+  path: eggs/20/010/
+  reference: 'P. M. Piaggi, R. Car, Phase equilibrium of liquid water and hexagonal ice from enhanced sampling molecular dynamics simulations, The Journal of Chemical Physics 152, 204116 (2020)'
+- id: '20.009'
+  name: The dynamics of linear polyubiquitin
+  shortname: The dynamics of...
+  category: bio
+  keywords: saxs, martini, metainference, metadynamics, ubiquitin, protein dynamics
+  shortkeywords: saxs, martini, metainfere...
+  contributor: Carlo Camilloni
+  doi: 10.1126/sciadv.abc3786
+  path: eggs/20/009/
+  reference: 'A. Jussupow et al., The dynamics of linear polyubiquitin, Science Advances 6, eabc3786 (2020)'
+- id: '20.008'
+  name: Simulating solvation and acidity in complex mixtures with first-principles accuracy. The case of CH3SO3H and H2O2 in phenol
+  shortname: Simulating solv...
+  category: chemistry
+  keywords: proton trasfer, metadynamics
+  shortkeywords: proton trasfer, metadynam...
+  contributor: Kevin Rossi
+  doi: 10.1021/acs.jctc.0c00362
+  path: eggs/20/008/
+  reference: 'K. Rossi et al., Simulating Solvation and Acidity in Complex Mixtures with First-Principles Accuracy: The Case of CH3SO3H and H2O2 in Phenol, Journal of Chemical Theory and Computation 16, 5139–5149 (2020)'
+- id: '20.007'
+  name: Discovering loop conformational flexibility in T4lysozyme mutants through artificial intelligence aided molecular dynamics
+  shortname: Discovering loo...
+  category: bio
+  keywords: metadynamics, loop movement, artificial intelligence
+  shortkeywords: metadynamics, loop moveme...
+  contributor: Pratyush Tiwary
+  doi: 10.1021/acs.jpcb.0c03985
+  path: eggs/20/007/
+  reference: 'Z. Smith, P. Ravindra, Y. Wang, R. Cooley, P. Tiwary, Discovering Protein Conformational Flexibility through Artificial-Intelligence-Aided Molecular Dynamics, The Journal of Physical Chemistry B 124, 8221–8229 (2020)'
+- id: '20.006'
+  name: Class B GPCR activation mechanism
+  shortname: Class B GPCR ac...
+  category: bio
+  keywords: metadynamics, well-tempered ensemble, multiple walkers, Parallel-tempering metadynamics, GPCRs, ligand binding
+  shortkeywords: metadynamics, well-temper...
+  contributor: Francesco Gervasio
+  doi: 10.1073/pnas.1921851117
+  path: eggs/20/006/
+  reference: 'G. Mattedi, S. Acosta-Gutiérrez, T. Clark, F. L. Gervasio, A combined activation mechanism for the glucagon receptor, Proceedings of the National Academy of Sciences 117, 15414–15422 (2020)'
+- id: '20.005'
+  name: Muscarinic M2 receptor/ligand Frequency-Adaptive Metadynamics and QM/MM calculations
+  shortname: Muscarinic M2 r...
+  category: bio
+  keywords: Frequency-adaptive metadynamics, multiple-walkers metadynamics, well-tempered metadynamics, GPCR, receptor, Adiabatic Bias MD
+  shortkeywords: Frequency-adaptive metady...
+  contributor: Riccardo Capelli
+  doi: 10.1021/acs.jpclett.0c00999
+  path: eggs/20/005/
+  reference: 'R. Capelli et al., Accuracy of Molecular Simulation-Based Predictions of koff Values: A Metadynamics Study, The Journal of Physical Chemistry Letters 11, 6373–6381 (2020)'
+- id: '20.004'
+  name: Data-driven collective variables for enhanced sampling
+  shortname: Data-driven col...
+  category: methods
+  keywords: collective variables, machine learning, deep-lda
+  shortkeywords: collective variables, mac...
+  contributor: Luigi Bonati
+  doi: 10.1021/acs.jpclett.0c00535
+  path: eggs/20/004/
+  reference: 'L. Bonati, V. Rizzi, M. Parrinello, Data-Driven Collective Variables for Enhanced Sampling, The Journal of Physical Chemistry Letters 11, 2998–3004 (2020)'
+- id: '20.003'
+  name: Enhanced sampling of transition states
+  shortname: Enhanced sampli...
+  category: methods
+  keywords: Variationally Enhanced Sampling, Target distribution, Transition state, Enhanced Sampling, Nucleation, chemical reaction
+  shortkeywords: Variationally Enhanced Sa...
+  contributor: Jayashrita Debnath
+  doi: 10.1021/acs.jctc.8b01283
+  path: eggs/20/003/
+  reference: 'J. Debnath, M. Invernizzi, M. Parrinello, Enhanced Sampling of Transition States, Journal of Chemical Theory and Computation 15, 2454–2459 (2019)'
+- id: '20.002'
+  name: Exploring conformational dynamics of the extracellular Venus flytrap domain of the GABAB receptor, a path-metadynamics study
+  shortname: Exploring confo...
+  category: bio
+  keywords: Metadynamics, path CVs
+  shortkeywords: Metadynamics, path CVs
+  contributor: Riccardo Ocello
+  doi: 10.1021/acs.jcim.0c00163
+  path: eggs/20/002/
+  reference: 'L. S. M. Evenseth et al., Exploring Conformational Dynamics of the Extracellular Venus flytrap Domain of the GABAB Receptor: A Path-Metadynamics Study, Journal of Chemical Information and Modeling 60, 2294–2303 (2020)'
+- id: '20.001'
+  name: Conformational stability and dynamics in solution and in crystals report similarly on unfolding and aggregation propensity of amyloidogenic proteins
+  shortname: Conformational ...
+  category: bio
+  keywords: metainference, metadynamics, NMR, protein dynamics, b2m, protein crystals
+  shortkeywords: metainference, metadynami...
+  contributor: Carlo Camilloni
+  doi: 10.1016/j.bpj.2020.07.015
+  path: eggs/20/001/
+  reference: 'B. M. Sala et al., Conformational Stability and Dynamics in Crystals Recapitulate Protein Behavior in Solution, Biophysical Journal 119, 978–988 (2020)'
+- id: '20.000'
+  name: Muscarinic M2 receptor-ligand funnel metadynamics
+  shortname: Muscarinic M2 r...
+  category: bio
+  keywords: multiple walker metadynamics, well-tempered metadynamics, funnel metadynamics, MC-HLDA, GPCR, receptor, Adiabatic Bias MD
+  shortkeywords: multiple walker metadynam...
+  contributor: Riccardo Capelli
+  doi: 10.1021/acs.jctc.9b00118
+  path: eggs/20/000/
+  reference: 'R. Capelli et al., Chasing the Full Free Energy Landscape of Neuroreceptor/Ligand Unbinding by Metadynamics Simulations, Journal of Chemical Theory and Computation 15, 3354–3361 (2019)'
+- id: '19.083'
+  name: Blind Search for Complex Chemical Pathways Using Harmonic Linear Discriminant Analysis
+  shortname: Blind Search fo...
+  category: chemistry
+  keywords: metadynamics, chemical reactions, reaction discovery
+  shortkeywords: metadynamics, chemical re...
+  contributor: Valerio Rizzi
+  doi: 10.1021/acs.jctc.9b00358
+  path: eggs/19/083/
+  reference: 'V. Rizzi, D. Mendels, E. Sicilia, M. Parrinello, Blind Search for Complex Chemical Pathways Using Harmonic Linear Discriminant Analysis, Journal of Chemical Theory and Computation 15, 4507–4515 (2019)'
+- id: '19.082'
+  name: Ammonia Borane Dehydrogenation
+  shortname: Ammonia Borane ...
+  category: chemistry
+  keywords: metadynamics, reaction discovery, hydrogen production, chemistry
+  shortkeywords: metadynamics, reaction di...
+  contributor: Valerio Rizzi
+  doi: 10.1002/anie.201900134
+  path: eggs/19/082/
+  reference: 'V. Rizzi, D. Polino, E. Sicilia, N. Russo, M. Parrinello, The Onset of Dehydrogenation in Solid Ammonia Borane: An Ab Initio Metadynamics Study, Angewandte Chemie International Edition 58, 3976–3980 (2019)'
+- id: '19.081'
+  name: Calculation of phase diagrams in the multithermal-multibaric ensemble
+  shortname: Calculation of ...
+  category: methods
+  keywords: VES, variationally enhanced sampling, multithermal-multibaric, energy, Wang Landau, RefCV, kernel, bcc, fcc, sodium, aluminum
+  shortkeywords: VES, variationally enhanc...
+  contributor: Pablo Piaggi
+  doi: 10.1063/1.5102104
+  path: eggs/19/081/
+  reference: 'P. M. Piaggi, M. Parrinello, Calculation of phase diagrams in the multithermal-multibaric ensemble, The Journal of Chemical Physics 150, 244119 (2019)'
+- id: '19.080'
+  name: Ensemble-Based Molecular Simulation of Chemical Reactions under Vibrational Nonequilibrium
+  shortname: Ensemble-Based ...
+  category: methods
+  keywords: ves, variationally enhanced sampling, vibrational excitation, chemical reactions
+  shortkeywords: ves, variationally enhanc...
+  contributor: Kristof Bal
+  doi: 10.1021/acs.jpclett.9b03356
+  path: eggs/19/080/
+  reference: 'K. M. Bal, A. Bogaerts, E. C. Neyts, Ensemble-Based Molecular Simulation of Chemical Reactions under Vibrational Nonequilibrium, The Journal of Physical Chemistry Letters 11, 401–406 (2019)'
+- id: '19.079'
+  name: Impact of Glutamate Carboxylation in the Adsorption of the alpha-1 Domain of Osteocalcin to Hydroxyapatite and Titania
+  shortname: Impact of Gluta...
+  category: bio
+  keywords: metadynamics, peptide adsorption, parallel tempering, well-tempered ensemble
+  shortkeywords: metadynamics, peptide ads...
+  contributor: Sarah Alamdari
+  doi: 10.1039/C9ME00158A
+  path: eggs/19/079/
+  reference: 'S. Alamdari, J. Pfaendtner, Impact of glutamate carboxylation in the adsorption of the α-1 domain of osteocalcin to hydroxyapatite and titania, Molecular Systems Design & Engineering 5, 620–631 (2020)'
+- id: '19.078'
+  name: Iterative unbiasing of quasi-equilibrium sampling
+  shortname: Iterative unbia...
+  category: methods
+  keywords: metadynamics, reweighting
+  shortkeywords: metadynamics, reweighting
+  contributor: Federico Giberti
+  doi: 10.1021/acs.jctc.9b00907
+  path: eggs/19/078/
+  reference: 'F. Giberti, B. Cheng, G. A. Tribello, M. Ceriotti, Iterative Unbiasing of Quasi-Equilibrium Sampling, Journal of Chemical Theory and Computation 16, 100–107 (2019)'
+- id: '19.077'
+  name: Molecular Recognition and Specificity of Biomolecules to Titanium Dioxide from MD Simulations
+  shortname: Molecular Recog...
+  category: materials
+  keywords: metadynamics, peptide-surface binding
+  shortkeywords: metadynamics, peptide-sur...
+  contributor: Jim Pfaendtner
+  doi: 10.1038/s41524-020-0288-7
+  path: eggs/19/077/
+  reference: 'J. Sampath, A. Kullman, R. Gebhart, G. Drobny, J. Pfaendtner, Molecular recognition and specificity of biomolecules to titanium dioxide from molecular dynamics simulations, npj Computational Materials 6 (2020)'
+- id: '19.076'
+  name: Efficient conversion of chemical energy into mechanical work by Hsp70 chaperones
+  shortname: Efficient conve...
+  category: bio
+  keywords: molecular chaperones, Hsp70, protein folding, non equilibrium thermodynamics
+  shortkeywords: molecular chaperones, Hsp...
+  contributor: Salvatore Assenza
+  doi: 10.7554/eLife.48491
+  path: eggs/19/076/
+  reference: 'S. Assenza et al., Efficient conversion of chemical energy into mechanical work by Hsp70 chaperones, eLife 8 (2019)'
+- id: '19.075'
+  name: PYCV - a PLUMED 2 Module Enabling the Rapid Prototyping of Collective Variables in Python
+  shortname: PYCV - a PLUMED...
+  category: other
+  keywords: Python, automatic differentiation
+  shortkeywords: Python, automatic differe...
+  contributor: Toni Giorgino
+  doi: 10.21105/joss.01773
+  path: eggs/19/075/
+  reference: 'T. Giorgino, PYCV: a PLUMED 2 Module Enabling the Rapid Prototyping of Collective Variables in Python, Journal of Open Source Software 4, 1773 (2019)'
+- id: '19.074'
+  name: Asymmetric base pair opening in nucleic acids
+  shortname: Asymmetric base...
+  category: bio
+  keywords: double helix, DNA, RNA, unwindability
+  shortkeywords: double helix, DNA, RNA, u...
+  contributor: Giovanni Bussi
+  doi: 10.1073/pnas.1901086116
+  path: eggs/19/074/
+  reference: 'F. Colizzi et al., Asymmetric base-pair opening drives helicase unwinding dynamics, Proceedings of the National Academy of Sciences 116, 22471–22477 (2019)'
+- id: '19.073'
+  name: On the role of enthalpic and entropic contributions on the conformational free energy landscape of MIL-101(Cr) building units
+  shortname: On the role of ...
+  category: materials
+  keywords: metadynamics, MOF, MIL101Cr, conformational
+  shortkeywords: metadynamics, MOF, MIL101...
+  contributor: Matteo Salvalaglio
+  doi: 10.1002/adts.202000092
+  path: eggs/19/073/
+  reference: 'L. Kollias, D. C. Cantu, V. Glezakou, R. Rousseau, M. Salvalaglio, On the Role of Enthalpic and Entropic Contributions to the Conformational Free Energy Landscape of MIL‐101(Cr) Secondary Building Units, Advanced Theory and Simulations 3, 2000092 (2020)'
+- id: '19.072'
+  name: SINE hairpin MD+NMR
+  shortname: SINE hairpin MD...
+  category: bio
+  keywords: metadynamics, RNA, NMR
+  shortkeywords: metadynamics, RNA, NMR
+  contributor: Giovanni Bussi
+  doi: 10.1093/nar/gkz1184
+  path: eggs/19/072/
+  reference: 'S. Reißer, S. Zucchelli, S. Gustincich, G. Bussi, Conformational ensembles of an RNA hairpin using molecular dynamics and sparse NMR data, Nucleic Acids Research 48, 1164–1174 (2019)'
+- id: '19.071'
+  name: Time-independent free energies from metadynamics via Mean Force Integration
+  shortname: Time-independen...
+  category: methods
+  keywords: metadynamics, mean force integration, MFI, thermodynamic integration
+  shortkeywords: metadynamics, mean force ...
+  contributor: Matteo Salvalaglio
+  doi: 10.1063/1.5123498
+  path: eggs/19/071/
+  reference: 'V. Marinova, M. Salvalaglio, Time-independent free energies from metadynamics via mean force integration, The Journal of Chemical Physics 151, 164115 (2019)'
+- id: '19.070'
+  name: Unexpected Dynamics in the UUCG RNA Tetraloop
+  shortname: Unexpected Dyna...
+  category: bio
+  keywords: well-tempered metadynamics, RNA, UUCG, maximum entropy
+  shortkeywords: well-tempered metadynamic...
+  contributor: Sandro Bottaro
+  doi: 10.1093/nar/gkaa399
+  path: eggs/19/070/
+  reference: 'S. Bottaro, P. J. Nichols, B. Vögeli, M. Parrinello, K. Lindorff-Larsen, Integrating NMR and simulations reveals motions in the UUCG tetraloop, Nucleic Acids Research 48, 5839–5848 (2020)'
+- id: '19.069'
+  name: Solvent Dynamics and Thermodynamics at the Crystal-Solution Interface of Ibuprofen
+  shortname: Solvent Dynamic...
+  category: materials
+  keywords: ibuprofen, crystal, solvent, surface
+  shortkeywords: ibuprofen, crystal, solve...
+  contributor: Matteo Salvalaglio
+  doi: 10.1021/acs.cgd.9b00983
+  path: eggs/19/069/
+  reference: 'V. Marinova, G. P. F. Wood, I. Marziano, M. Salvalaglio, Solvent Dynamics and Thermodynamics at the Crystal–Solution Interface of Ibuprofen, Crystal Growth & Design 19, 6534–6541 (2019)'
+- id: '19.068'
+  name: Rethinking Metadynamics
+  shortname: Rethinking Meta...
+  category: methods
+  keywords: metadynamics, opes, convergence
+  shortkeywords: metadynamics, opes, conve...
+  contributor: Michele Invernizzi
+  doi: 10.1021/acs.jpclett.0c00497
+  path: eggs/19/068/
+  reference: 'M. Invernizzi, M. Parrinello, Rethinking Metadynamics: From Bias Potentials to Probability Distributions, The Journal of Physical Chemistry Letters 11, 2731–2736 (2020)'
+- id: '19.067'
+  name: Kinetics of Huperzine A Dissociation from Acetylcholinesterase via Multiple Unbinding Pathways
+  shortname: Kinetics of Hup...
+  category: bio
+  keywords: metadynamics, ligand unbinding
+  shortkeywords: metadynamics, ligand unbi...
+  contributor: Jakub Rydzewski
+  doi: 10.1021/acs.jctc.8b00173
+  path: eggs/19/067/
+  reference: 'J. Rydzewski, R. Jakubowski, W. Nowak, H. Grubmüller, Kinetics of Huperzine A Dissociation from Acetylcholinesterase via Multiple Unbinding Pathways, Journal of Chemical Theory and Computation 14, 2843–2851 (2018)'
+- id: '19.066'
+  name: Finding ligand unbinding reaction pathways
+  shortname: Finding ligand ...
+  category: methods
+  keywords: maze, ligand unbinding
+  shortkeywords: maze, ligand unbinding
+  contributor: Jakub Rydzewski
+  doi: 10.1063/1.5108638
+  path: eggs/19/066/
+  reference: 'J. Rydzewski, O. Valsson, Finding multiple reaction pathways of ligand unbinding, The Journal of Chemical Physics 150, 221101 (2019)'
+- id: '19.065'
+  name: Molecular Enhanced Sampling with Autoencoders
+  shortname: Molecular Enhan...
+  category: methods
+  keywords: enhanced sampling, collective variables, deep learning
+  shortkeywords: enhanced sampling, collec...
+  contributor: Wei Chen
+  doi: 10.1002/jcc.25520
+  path: eggs/19/065/
+  reference: 'W. Chen, A. L. Ferguson, Molecular enhanced sampling with autoencoders: On-the-fly collective variable discovery and accelerated free energy landscape exploration, Journal of Computational Chemistry 39, 2079–2102 (2018)'
+- id: '19.064'
+  name: Amphiphilic Peptide Binding on Crystalline vs. Amorphous Silica from Molecular Dynamics Simulations
+  shortname: Amphiphilic Pep...
+  category: materials
+  keywords: metadynamics, peptide-surface binding
+  shortkeywords: metadynamics, peptide-sur...
+  contributor: Jim Pfaendtner
+  doi: 10.1080/00268976.2019.1657192
+  path: eggs/19/064/
+  reference: 'J. Sampath, J. Pfaendtner, Amphiphilic peptide binding on crystalline vs. amorphous silica from molecular dynamics simulations, Molecular Physics 117, 3642–3650 (2019)'
+- id: '19.063'
+  name: Protein-ligand binding through metadynamics with path CVs
+  shortname: Protein-ligand ...
+  category: bio
+  keywords: metadynamics, path CVs, ligand binding
+  shortkeywords: metadynamics, path CVs, l...
+  contributor: Mattia Bernetti
+  doi: 10.1021/acs.jctc.9b00450
+  path: eggs/19/063/
+  reference: 'M. Bernetti, M. Masetti, M. Recanatini, R. E. Amaro, A. Cavalli, An Integrated Markov State Model and Path Metadynamics Approach To Characterize Drug Binding Processes, Journal of Chemical Theory and Computation 15, 5689–5702 (2019)'
+- id: '19.062'
+  name: Elucidating molecular design principles for charge-alternating peptides
+  shortname: Elucidating mol...
+  category: bio
+  keywords: peptide folding, metadynamics, well-tempered ensemble, parallel tempering
+  shortkeywords: peptide folding, metadyna...
+  contributor: Jim Pfaendtner
+  doi: 10.1021/acs.biomac.9b01191
+  path: eggs/19/062/
+  reference: 'J. Smith, P. McMullen, Z. Yuan, J. Pfaendtner, S. Jiang, Elucidating Molecular Design Principles for Charge-Alternating Peptides, Biomacromolecules 21, 435–443 (2019)'
+- id: '19.061'
+  name: Diffusion in porous materials
+  shortname: Diffusion in po...
+  category: materials
+  keywords: metadynamics, porous materials, diffusion
+  shortkeywords: metadynamics, porous mate...
+  contributor: Kim E. Jelfs
+  doi: 10.1021/acs.jpcc.9b05953
+  path: eggs/19/061/
+  reference: 'E. Jackson, M. Miklitz, Q. Song, G. A. Tribello, K. E. Jelfs, Computational Evaluation of the Diffusion Mechanisms for C8 Aromatics in Porous Organic Cages, The Journal of Physical Chemistry C 123, 21011–21021 (2019)'
+- id: '19.060'
+  name: Neural networks-based variationally enhanced sampling
+  shortname: Neural networks...
+  category: methods
+  keywords: ves, neural networks
+  shortkeywords: ves, neural networks
+  contributor: Luigi Bonati
+  doi: 10.1073/pnas.1907975116
+  path: eggs/19/060/
+  reference: 'L. Bonati, Y.-Y. Zhang, M. Parrinello, Neural networks-based variationally enhanced sampling, Proceedings of the National Academy of Sciences 116, 17641–17647 (2019)'
+- id: '19.059'
+  name: cis-trans isomerization of the Ac-Ala-Ala-Pro-Ala-Lys-NH2 peptide
+  shortname: cis-trans isome...
+  category: bio
+  keywords: bias-exchange metadynamics, cis-trans isomerization
+  shortkeywords: bias-exchange metadynamic...
+  contributor: Fabrizio Marinelli
+  doi: unpublished
+  path: eggs/19/059/
+  reference: 'unpublished'
+- id: '19.058'
+  name: Constrained MD for maintaining a cavity in a calculation
+  shortname: Constrained MD ...
+  category: chemistry
+  keywords: constrained MD, porous molecules, porosity, cavity
+  shortkeywords: constrained MD, porous mo...
+  contributor: Kim Jelfs
+  doi: 10.1039/C5CC05344G
+  path: eggs/19/058/
+  reference: 'V. Santolini, G. A. Tribello, K. E. Jelfs, Predicting solvent effects on the structure of porous organic molecules, Chemical Communications 51, 15542–15545 (2015)'
+- id: '19.057'
+  name: SAXS ensembles using Martini-Beads multi-scale SAXS
+  shortname: SAXS ensembles ...
+  category: methods
+  keywords: metainference, SAXS, martini, ensemble determination, metadynamics, protein dynamics
+  shortkeywords: metainference, SAXS, mart...
+  contributor: Cristina Paissoni
+  doi: 10.1021/acs.jctc.9b01181
+  path: eggs/19/057/
+  reference: 'C. Paissoni, A. Jussupow, C. Camilloni, Determination of Protein Structural Ensembles by Hybrid-Resolution SAXS Restrained Molecular Dynamics, Journal of Chemical Theory and Computation 16, 2825–2834 (2020)'
+- id: '19.056'
+  name: maze
+  shortname: maze
+  category: methods
+  keywords: maze, ligand unbinding
+  shortkeywords: maze, ligand unbinding
+  contributor: Jakub Rydzewski
+  doi: 10.1016/j.cpc.2019.106865
+  path: eggs/19/056/
+  reference: 'J. Rydzewski, maze: Heterogeneous ligand unbinding along transient protein tunnels, Computer Physics Communications 247, 106865 (2020)'
+- id: '19.055'
+  name: Flying Gaussian method
+  shortname: Flying Gaussian...
+  category: methods
+  keywords: flying Gaussians, alanine dipeptide, peptide bond, Met-enkephalin
+  shortkeywords: flying Gaussians, alanine...
+  contributor: Vojtech Spiwok
+  doi: 10.1021/acs.jctc.6b00551
+  path: eggs/19/055/
+  reference: 'Z. Šućur, V. Spiwok, Sampling Enhancement and Free Energy Prediction by the Flying Gaussian Method, Journal of Chemical Theory and Computation 12, 4644–4650 (2016)'
+- id: '19.054'
+  name: MetaFEP
+  shortname: MetaFEP
+  category: methods
+  keywords: metadynamics, chemistry, free energy perturbation
+  shortkeywords: metadynamics, chemistry, ...
+  contributor: GiovanniMaria Piccini
+  doi: 10.1021/acs.jpclett.9b01301
+  path: eggs/19/054/
+  reference: 'G. Piccini, M. Parrinello, Accurate Quantum Chemical Free Energies at Affordable Cost, The Journal of Physical Chemistry Letters 10, 3727–3731 (2019)'
+- id: '19.053'
+  name: Capillary fluctuations with PLUMED
+  shortname: Capillary fluct...
+  category: methods
+  keywords: nucleation, surface tension, capillary fluctuations
+  shortkeywords: nucleation, surface tensi...
+  contributor: Gareth Tribello
+  doi: 10.1088/1361-648X/aa893d
+  path: eggs/19/053/
+  reference: 'E. Baldi, M. Ceriotti, G. A. Tribello, Extracting the interfacial free energy and anisotropy from a smooth fluctuating dividing surface, Journal of Physics: Condensed Matter 29, 445001 (2017)'
+- id: '19.052'
+  name: Gibbs free energy of homogeneous nucleation
+  shortname: Gibbs free ener...
+  category: materials
+  keywords: nucleation, surface excess free energy
+  shortkeywords: nucleation, surface exces...
+  contributor: Gareth Tribello
+  doi: 10.1063/1.4997180
+  path: eggs/19/052/
+  reference: 'B. Cheng, G. A. Tribello, M. Ceriotti, The Gibbs free energy of homogeneous nucleation: From atomistic nuclei to the planar limit, The Journal of Chemical Physics 147, 104707 (2017)'
+- id: '19.051'
+  name: Solid liquid interfacial free energy out of equilibrium
+  shortname: Solid liquid in...
+  category: materials
+  keywords: metadynamics, nucleation, surface excess free energy
+  shortkeywords: metadynamics, nucleation,...
+  contributor: Gareth Tribello
+  doi: 10.1103/PhysRevB.92.180102
+  path: eggs/19/051/
+  reference: 'B. Cheng, G. A. Tribello, M. Ceriotti, Solid-liquid interfacial free energy out of equilibrium, Physical Review B 92 (2015)'
+- id: '19.050'
+  name: Using intrinsic surface to calculate the free energy change when nanoparticles adsorb on membranes
+  shortname: Using intrinsic...
+  category: chemistry
+  keywords: metadynamics, membranes, Willard Chandler surface
+  shortkeywords: metadynamics, membranes, ...
+  contributor: Gareth Tribello
+  doi: 10.1021/acs.jpcb.8b03661
+  path: eggs/19/050/
+  reference: 'J. Klug, C. Triguero, M. G. Del Pópolo, G. A. Tribello, Using Intrinsic Surfaces To Calculate the Free-Energy Change When Nanoparticles Adsorb on Membranes, The Journal of Physical Chemistry B 122, 6417–6422 (2018)'
+- id: '19.049'
+  name: Determining the sizes of solid/liquid clusters in MD trajectories of nucleation
+  shortname: Determining the...
+  category: methods
+  keywords: nucleation, metadynamics, clustering, Steinhardt order parameters
+  shortkeywords: nucleation, metadynamics,...
+  contributor: Gareth Tribello
+  doi: 10.1021/acs.jctc.6b01073
+  path: eggs/19/049/
+  reference: 'G. A. Tribello, F. Giberti, G. C. Sosso, M. Salvalaglio, M. Parrinello, Analyzing and Driving Cluster Formation in Atomistic Simulations, Journal of Chemical Theory and Computation 13, 1317–1327 (2017)'
+- id: '19.048'
+  name: Understanding Ligand Binding Selectivity in a Prototypical GPCR Family
+  shortname: Understanding L...
+  category: bio
+  keywords: metadynamics, Parallel-tempering metadynamics, GPCRs, ligand binding
+  shortkeywords: metadynamics, Parallel-te...
+  contributor: Francesco Gervasio
+  doi: 10.1021/acs.jcim.9b00298
+  path: eggs/19/048/
+  reference: 'G. Mattedi, F. Deflorian, J. S. Mason, C. de Graaf, F. L. Gervasio, Understanding Ligand Binding Selectivity in a Prototypical GPCR Family, Journal of Chemical Information and Modeling 59, 2830–2836 (2019)'
+- id: '19.047'
+  name: Close Structure
+  shortname: Close Structure
+  category: methods
+  keywords: metadynamics, RMSD, path collective variables, property map
+  shortkeywords: metadynamics, RMSD, path ...
+  contributor: Vojtech Spiwok
+  doi: 10.1063/1.4978296
+  path: eggs/19/047/
+  reference: 'J. Pazúriková, A. Křenek, V. Spiwok, M. Šimková, Reducing the number of mean-square deviation calculations with floating close structure in metadynamics, The Journal of Chemical Physics 146, 115101 (2017)'
+- id: '19.046'
+  name: Optimal Collective from short simulations for Benzamidine-Trypsin ligand binding
+  shortname: Optimal Collect...
+  category: bio
+  keywords: VAC-MetaD, optimised collective variables, binding free energy, unbinding rates, benzamidine trypsin, Structure Activity Relation
+  shortkeywords: VAC-MetaD, optimised coll...
+  contributor: Faidon Brotzakis
+  doi: 10.1021/acs.jctc.8b00934
+  path: eggs/19/046/
+  reference: 'Z. F. Brotzakis, V. Limongelli, M. Parrinello, Accelerating the Calculation of Protein–Ligand Binding Free Energy and Residence Times Using Dynamically Optimized Collective Variables, Journal of Chemical Theory and Computation 15, 743–750 (2018)'
+- id: '19.045'
+  name: Adsorption free energy of Ca/CO3 ions on calcite steps in contact with water
+  shortname: Adsorption free...
+  category: materials
+  keywords: metadynamics, well-tempered, multiple walkers, LAMMPS
+  shortkeywords: metadynamics, well-temper...
+  contributor: Marco De La Pierre
+  doi: 10.1002/anie.201701701
+  path: eggs/19/045/
+  reference: 'M. De La Pierre, P. Raiteri, A. G. Stack, J. D. Gale, Uncovering the Atomistic Mechanism for Calcite Step Growth, Angewandte Chemie International Edition 56, 8464–8467 (2017)'
+- id: '19.044'
+  name: Multithermal-multibaric simulations using VES
+  shortname: Multithermal-mu...
+  category: methods
+  keywords: ves, Wang Landau, multicanonical, water, density anomaly
+  shortkeywords: ves, Wang Landau, multica...
+  contributor: Pablo Piaggi
+  doi: 10.1103/PhysRevLett.122.050601
+  path: eggs/19/044/
+  reference: 'P. M. Piaggi, M. Parrinello, Multithermal-Multibaric Molecular Simulations from a Variational Principle, Physical Review Letters 122 (2019)'
+- id: '19.043'
+  name: Multi Class - Harmonic Linear Discriminant Analysis (MC-HLDA)
+  shortname: Multi Class - H...
+  category: methods
+  keywords: metadynamics, chemistry, HLDA
+  shortkeywords: metadynamics, chemistry, ...
+  contributor: GiovanniMaria Piccini
+  doi: 10.1021/acs.jctc.8b00634
+  path: eggs/19/043/
+  reference: 'G. Piccini, D. Mendels, M. Parrinello, Metadynamics with Discriminants: A Tool for Understanding Chemistry, Journal of Chemical Theory and Computation 14, 5040–5044 (2018)'
+- id: '19.042'
+  name: Harmonic Linear Discriminant Analysis (HLDA)
+  shortname: Harmonic Linear...
+  category: methods
+  keywords: metadynamics, chemistry, HLDA
+  shortkeywords: metadynamics, chemistry, ...
+  contributor: GiovanniMaria Piccini
+  doi: 10.1021/acs.jpclett.8b00733
+  path: eggs/19/042/
+  reference: 'D. Mendels, G. Piccini, M. Parrinello, Collective Variables from Local Fluctuations, The Journal of Physical Chemistry Letters 9, 2776–2781 (2018)'
+- id: '19.041'
+  name: Molecular Driving Forces in Peptide Adsorption to Metal Oxide Surfaces
+  shortname: Molecular Drivi...
+  category: bio
+  keywords: metadynamics, collective variables, conformational changes, multiple walkers, Well-Tempered MetaD, peptide, binding, phosphorylation, post-transitional motif, sio2, adsorption
+  shortkeywords: metadynamics, collective ...
+  contributor: Jim Pfaendtner
+  doi: 10.1021/acs.langmuir.8b01392
+  path: eggs/19/041/
+  reference: 'C. M. Mao, J. Sampath, K. G. Sprenger, G. Drobny, J. Pfaendtner, Molecular Driving Forces in Peptide Adsorption to Metal Oxide Surfaces, Langmuir 35, 5911–5920 (2019)'
+- id: '19.040'
+  name: Optimal Metric for Path Collective Variables
+  shortname: Optimal Metric ...
+  category: bio
+  keywords: metadynamics, path collective variables, sgoop, alanine tripeptide, conformational changes, optimal path
+  shortkeywords: metadynamics, path collec...
+  contributor: Francesco Luigi Gervasio
+  doi: 10.1021/acs.jctc.8b00563
+  path: eggs/19/040/
+  reference: 'L. Hovan, F. Comitani, F. L. Gervasio, Defining an Optimal Metric for the Path Collective Variables, Journal of Chemical Theory and Computation 15, 25–32 (2018)'
+- id: '19.039'
+  name: Funnel Metadynamics
+  shortname: Funnel Metadyna...
+  category: bio
+  keywords: funnel-metadynamics, absolute binding free energy, ligand-receptor complexes
+  shortkeywords: funnel-metadynamics, abso...
+  contributor: Vittorio Limongelli
+  doi: 10.1073/pnas.1303186110
+  path: eggs/19/039/
+  reference: 'V. Limongelli, M. Bonomi, M. Parrinello, Funnel metadynamics as accurate binding free-energy method, Proceedings of the National Academy of Sciences 110, 6358–6363 (2013)'
+- id: '19.038'
+  name: native state dynamics of human and mouse b2m
+  shortname: native state dy...
+  category: bio
+  keywords: metainference, NMR, chemical shifts, metadynamics, protein dynamics, aggregation
+  shortkeywords: metainference, NMR, chemi...
+  contributor: Carlo Camilloni
+  doi: 10.1111/febs.15046
+  path: eggs/19/038/
+  reference: 'A. Achour et al., Biochemical and biophysical comparison of human and mouse beta‐2 microglobulin reveals the molecular determinants of low amyloid propensity, The FEBS Journal 287, 546–560 (2019)'
+- id: '19.037'
+  name: Scission free energy of organic dyes
+  shortname: Scission free e...
+  category: chemistry
+  keywords: metadynamics, multiple walkers, matheval/lepton
+  shortkeywords: metadynamics, multiple wa...
+  contributor: Paolo Raiteri
+  doi: 10.1021/jacs.6b08267
+  path: eggs/19/037/
+  reference: 'R. Drori et al., A Supramolecular Ice Growth Inhibitor, Journal of the American Chemical Society 138, 13396–13401 (2016)'
+- id: '19.036'
+  name: Thermodynamics and kinetics of G protein-coupled receptor activation
+  shortname: Thermodynamics ...
+  category: bio
+  keywords: metadynamics, allostery, receptor conformation, GPCR, pharmacology
+  shortkeywords: metadynamics, allostery, ...
+  contributor: Davide Provasi
+  doi: 10.1063/1.5060960
+  path: eggs/19/036/
+  reference: 'D. Meral, D. Provasi, M. Filizola, An efficient strategy to estimate thermodynamics and kinetics of G           protein-coupled receptor activation using metadynamics and maximum caliber, The Journal of Chemical Physics 149, 224101 (2018)'
+- id: '19.035'
+  name: Dimerization of GPCRs from coarse-grained umbrella sampling
+  shortname: Dimerization of...
+  category: bio
+  keywords: Umbrella sampling, coarse-grained, GPCR, protein-protein binding free energy, dimerization
+  shortkeywords: Umbrella sampling, coarse...
+  contributor: Davide Provasi
+  doi: 10.1038/s41598-018-26070-8
+  path: eggs/19/035/
+  reference: 'D. Meral et al., Molecular details of dimerization kinetics reveal negligible populations of transient µ-opioid receptor homodimers at physiological concentrations, Scientific Reports 8 (2018)'
+- id: '19.034'
+  name: PTCV (proton tracker collective variable)
+  shortname: PTCV (proton tr...
+  category: methods
+  keywords: proton tracker collective variable, path-metadynamics, CP2K, DFT-MD, acetic acid
+  shortkeywords: proton tracker collective...
+  contributor: Bernd Ensing
+  doi: 10.1063/1.5027392
+  path: eggs/19/034/
+  reference: 'A. Pérez de Alba Ortíz, A. Tiwari, R. C. Puthenkalathil, B. Ensing, Advances in enhanced sampling along adaptive paths of collective variables, The Journal of Chemical Physics 149, 072320 (2018)'
+- id: '19.033'
+  name: PMD (path-metadynamics)
+  shortname: PMD (path-metad...
+  category: methods
+  keywords: path-CV, metadynamics, multiple-walker, polyproline
+  shortkeywords: path-CV, metadynamics, mu...
+  contributor: Bernd Ensing
+  doi: 10.1063/1.5027392
+  path: eggs/19/033/
+  reference: 'A. Pérez de Alba Ortíz, A. Tiwari, R. C. Puthenkalathil, B. Ensing, Advances in enhanced sampling along adaptive paths of collective variables, The Journal of Chemical Physics 149, 072320 (2018)'
+- id: '19.032'
+  name: Chemical reaction in solution using path collective variables based on coordination patterns
+  shortname: Chemical reacti...
+  category: chemistry
+  keywords: chemical reactions, solutions, metadynamics, coordination patterns
+  shortkeywords: chemical reactions, solut...
+  contributor: Fabio Pietrucci
+  doi: 10.1073/pnas.1512486112
+  path: eggs/19/032/
+  reference: 'F. Pietrucci, A. M. Saitta, Formamide reaction network in gas phase and solution via a unified theoretical approach: Toward a reconciliation of different prebiotic scenarios, Proceedings of the National Academy of Sciences 112, 15030–15035 (2015)'
+- id: '19.031'
+  name: Ice nucleation using PIV-based path coordinates
+  shortname: Ice nucleation ...
+  category: materials
+  keywords: phase transitions, nucleation, TIP4P, path CV, PIV, metadynamics
+  shortkeywords: phase transitions, nuclea...
+  contributor: Silvio Pipolo
+  doi: 10.1103/PhysRevLett.119.245701
+  path: eggs/19/031/
+  reference: 'S. Pipolo et al., Navigating at Will on the Water Phase Diagram, Physical Review Letters 119 (2017)'
+- id: '19.030'
+  name: Coarse-Grained MetaDynamics (CG-MetaD)
+  shortname: Coarse-Grained ...
+  category: bio
+  keywords: Coarse-grained, metadynamics, protein-protein interaction, protein-protein binding free energy
+  shortkeywords: Coarse-grained, metadynam...
+  contributor: Vittorio Limongelli
+  doi: 10.1021/jacs.6b05602
+  path: eggs/19/030/
+  reference: 'M. Lelimousin, V. Limongelli, M. S. P. Sansom, Conformational Changes in the Epidermal Growth Factor Receptor: Role of the Transmembrane Domain Investigated by Coarse-Grained MetaDynamics Free Energy Calculations, Journal of the American Chemical Society 138, 10611–10622 (2016)'
+- id: '19.029'
+  name: WTE-metaD of FF domain of URNF1 C57D variant
+  shortname: WTE-metaD of FF...
+  category: bio
+  keywords: metadynamics, mutations, post-translational modification, ff domain
+  shortkeywords: metadynamics, mutations, ...
+  contributor: Elena Papaleo
+  doi: 10.1016/j.redox.2017.10.022
+  path: eggs/19/029/
+  reference: 'P. Marinelli et al., A single cysteine post-translational oxidation suffices to compromise globular proteins kinetic stability and promote amyloid formation, Redox Biology 14, 566–575 (2018)'
+- id: '19.028'
+  name: pRAVE
+  shortname: pRAVE
+  category: methods
+  keywords: RAVE, reaction coordinate, deep learning, metadynamics, kinetics
+  shortkeywords: RAVE, reaction coordinate...
+  contributor: Pratyush Tiwary
+  doi: 10.1038/s41467-019-11405-4
+  path: eggs/19/028/
+  reference: 'Y. Wang, J. M. L. Ribeiro, P. Tiwary, Past–future information bottleneck for sampling molecular reaction coordinate simultaneously with thermodynamics and kinetics, Nature Communications 10 (2019)'
+- id: '19.027'
+  name: Multithermal-multibaric simulations using VES
+  shortname: Multithermal-mu...
+  category: methods
+  keywords: ves, Wang Landau, multicanonical, liquid sodium, density anomaly
+  shortkeywords: ves, Wang Landau, multica...
+  contributor: Pablo Piaggi
+  doi: 10.1103/PhysRevLett.122.050601
+  path: eggs/19/027/
+  reference: 'P. M. Piaggi, M. Parrinello, Multithermal-Multibaric Molecular Simulations from a Variational Principle, Physical Review Letters 122 (2019)'
+- id: '19.026'
+  name: Ice Nucleation on Cholesterol Crystals
+  shortname: Ice Nucleation ...
+  category: materials
+  keywords: forward flux sampling, crystal nucleation, water, ice, organic crystals
+  shortkeywords: forward flux sampling, cr...
+  contributor: Gabriele Cesare Sosso
+  doi: 10.1039/c8sc02753f
+  path: eggs/19/026/
+  reference: 'G. C. Sosso et al., Unravelling the origins of ice nucleation on organic crystals, Chemical Science 9, 8077–8088 (2018)'
+- id: '19.025'
+  name: Metadynamic metainference Convergence towards force field independent structural ensembles of a disordered peptide
+  shortname: Metadynamic met...
+  category: bio
+  keywords: metainference, NMR, protein dynamics, force-fields
+  shortkeywords: metainference, NMR, prote...
+  contributor: Carlo Camilloni
+  doi: 10.1063/1.4981211
+  path: eggs/19/025/
+  reference: 'T. Löhr, A. Jussupow, C. Camilloni, Metadynamic metainference: Convergence towards force field independent structural ensembles of a disordered peptide, The Journal of Chemical Physics 146, 165102 (2017)'
+- id: '19.024'
+  name: PT-MetaD-WTE
+  shortname: PT-MetaD-WTE
+  category: methods
+  keywords: metadynamics, WTE, trp cage, PT
+  shortkeywords: metadynamics, WTE, trp ca...
+  contributor: Jim Pfaendtner
+  doi: 10.1021/ct300297t
+  path: eggs/19/024/
+  reference: 'M. Deighan, M. Bonomi, J. Pfaendtner, Efficient Simulation of Explicitly Solvated Proteins in the Well-Tempered Ensemble, Journal of Chemical Theory and Computation 8, 2189–2192 (2012)'
+- id: '19.023'
+  name: RECT
+  shortname: RECT
+  category: methods
+  keywords: metadynamics, replica exchange
+  shortkeywords: metadynamics, replica exc...
+  contributor: Giovanni Bussi
+  doi: 10.1021/ct5009087
+  path: eggs/19/023/
+  reference: 'A. Gil-Ley, G. Bussi, Enhanced Conformational Sampling Using Replica Exchange with Collective-Variable Tempering, Journal of Chemical Theory and Computation 11, 1077–1085 (2015)'
+- id: '19.022'
+  name: eABF simulation of NANMA (alanine dipeptide)
+  shortname: eABF simulation...
+  category: methods
+  keywords: eABF, DRR, alanine dipeptide
+  shortkeywords: eABF, DRR, alanine dipept...
+  contributor: Haochuan Chen
+  doi: 10.1021/acs.jcim.8b00115
+  path: eggs/19/022/
+  reference: 'H. Chen, H. Fu, X. Shao, C. Chipot, W. Cai, ELF: An Extended-Lagrangian Free Energy Calculation Module for Multiple Molecular Dynamics Engines, Journal of Chemical Information and Modeling 58, 1315–1318 (2018)'
+- id: '19.021'
+  name: Coarse-Grained Directed Simulation
+  shortname: Coarse-Grained ...
+  category: methods
+  keywords: experiment directed simulation, coarse-grain, bias
+  shortkeywords: experiment directed simul...
+  contributor: Glen Hocky
+  doi: 10.1021/acs.jctc.7b00690
+  path: eggs/19/021/
+  reference: 'G. M. Hocky, T. Dannenhoffer-Lafage, G. A. Voth, Coarse-Grained Directed Simulation, Journal of Chemical Theory and Computation 13, 4593–4603 (2017)'
+- id: '19.020'
+  name: PTMetaD-WTE simulation of the Ntail IDP
+  shortname: PTMetaD-WTE sim...
+  category: bio
+  keywords: metadynamics, IDPs, protein folding
+  shortkeywords: metadynamics, IDPs, prote...
+  contributor: Mattia Bernetti
+  doi: 10.1021/acs.jpcb.7b08925
+  path: eggs/19/020/
+  reference: 'M. Bernetti et al., Structural and Kinetic Characterization of the Intrinsically Disordered Protein SeV NTAIL through Enhanced Sampling Simulations, The Journal of Physical Chemistry B 121, 9572–9582 (2017)'
+- id: '19.019'
+  name: FA-MetaD-JCP-Wang-et-al
+  shortname: FA-MetaD-JCP-Wa...
+  category: bio
+  keywords: Frequency adaptive metadynamics; peptide
+  shortkeywords: Frequency adaptive metady...
+  contributor: Kresten Lindorff-Larsen
+  doi: 10.1063/1.5024679
+  path: eggs/19/019/
+  reference: 'Y. Wang, O. Valsson, P. Tiwary, M. Parrinello, K. Lindorff-Larsen, Frequency adaptive metadynamics for the calculation of rare-event kinetics, The Journal of Chemical Physics 149, 072309 (2018)'
+- id: '19.018'
+  name: Excited state FEP/Metadynamics simulations
+  shortname: Excited state F...
+  category: chemistry
+  keywords: metadynamics, FEP, excited states, conjugated polymers, torsional potential
+  shortkeywords: metadynamics, FEP, excite...
+  contributor: Adriana Pietropaolo
+  doi: 10.1021/acs.jctc.8b00949
+  path: eggs/19/018/
+  reference: 'C. Cozza, M. Bonomi, A. Pietropaolo, A Versatile Computational Strategy To Characterize the Free-Energy Landscape of Excited States in Oligofluorenes, Journal of Chemical Theory and Computation 14, 5441–5445 (2018)'
+- id: '19.017'
+  name: Ligand binding pathways exploration
+  shortname: Ligand binding ...
+  category: bio
+  keywords: metadynamics, ligand binding
+  shortkeywords: metadynamics, ligand bind...
+  contributor: Riccardo Capelli
+  doi: 10.1021/acs.jpclett.9b01183
+  path: eggs/19/017/
+  reference: 'R. Capelli, P. Carloni, M. Parrinello, Exhaustive Search of Ligand Binding Pathways via Volume-Based Metadynamics, The Journal of Physical Chemistry Letters 10, 3495–3499 (2019)'
+- id: '19.016'
+  name: Succinnic acid gamma polymorph
+  shortname: Succinnic acid ...
+  category: materials
+  keywords: Succinnic acid, conformers, polymorphs, metadynamics
+  shortkeywords: Succinnic acid, conformer...
+  contributor: Matteo Salvalaglio
+  doi: 10.1039/C8CE00625C
+  path: eggs/19/016/
+  reference: 'P. Lucaioli et al., Serendipitous isolation of a disappearing conformational polymorph of succinic acid challenges computational polymorph prediction, CrystEngComm 20, 3971–3977 (2018)'
+- id: '19.015'
+  name: Ibuprofen conformational dynamics and thermodynamics surface
+  shortname: Ibuprofen confo...
+  category: materials
+  keywords: Ibuprofen, crystal, surface, solvents, conformers, metadynamics
+  shortkeywords: Ibuprofen, crystal, surfa...
+  contributor: Matteo Salvalaglio
+  doi: 10.1021/acs.jctc.8b00702
+  path: eggs/19/015/
+  reference: 'V. Marinova, G. P. F. Wood, I. Marziano, M. Salvalaglio, Dynamics and Thermodynamics of Ibuprofen Conformational Isomerism at the Crystal/Solution Interface, Journal of Chemical Theory and Computation 14, 6484–6494 (2018)'
+- id: '19.014'
+  name: MIL101(Cr) SBUs assembly
+  shortname: MIL101(Cr) SBUs...
+  category: materials
+  keywords: MOFs, nucleation, self-assembly, metadynamics
+  shortkeywords: MOFs, nucleation, self-as...
+  contributor: Matteo Salvalaglio
+  doi: 10.1021/jacs.9b01829
+  path: eggs/19/014/
+  reference: 'L. Kollias et al., Molecular Level Understanding of the Free Energy Landscape in Early Stages of Metal–Organic Framework Nucleation, Journal of the American Chemical Society 141, 6073–6081 (2019)'
+- id: '19.013'
+  name: RNA FF FITTING
+  shortname: RNA FF FITTING
+  category: methods
+  keywords: force field, RNA
+  shortkeywords: force field, RNA
+  contributor: Giovanni Bussi
+  doi: 10.1021/acs.jctc.9b00206
+  path: eggs/19/013/
+  reference: 'A. Cesari et al., Fitting Corrections to an RNA Force Field Using Experimental Data, Journal of Chemical Theory and Computation 15, 3425–3431 (2019)'
+- id: '19.012'
+  name: Martini-Beads multi-scale SAXS
+  shortname: Martini-Beads m...
+  category: methods
+  keywords: metainference, SAXS, martini, structure refinement, nucleic-acids, protein complex
+  shortkeywords: metainference, SAXS, mart...
+  contributor: Carlo Camilloni
+  doi: 10.1107/S1600576719002450
+  path: eggs/19/012/
+  reference: 'C. Paissoni, A. Jussupow, C. Camilloni, Martini bead form factors for nucleic acids and their application in the refinement of protein–nucleic acid complexes against SAXS data, Journal of Applied Crystallography 52, 394–402 (2019)'
+- id: '19.011'
+  name: Automatic Gradient Computation for Collective Variables
+  shortname: Automatic Gradi...
+  category: other
+  keywords: gradient, differentiation, curvature
+  shortkeywords: gradient, differentiation...
+  contributor: Toni Giorgino
+  doi: 10.1016/j.cpc.2018.02.017
+  path: eggs/19/011/
+  reference: 'T. Giorgino, How to differentiate collective variables in free energy codes: Computer-algebra code generation and automatic differentiation, Computer Physics Communications 228, 258–263 (2018)'
+- id: '19.010'
+  name: Multi-domain protein dynamics
+  shortname: Multi-domain pr...
+  category: bio
+  keywords: metainference, NMR, protein dynamics
+  shortkeywords: metainference, NMR, prote...
+  contributor: Carlo Camilloni
+  doi: 10.1016/j.jmb.2018.10.024
+  path: eggs/19/010/
+  reference: 'B. Weber et al., The Antibody Light-Chain Linker Regulates Domain Orientation and Amyloidogenicity, Journal of Molecular Biology 430, 4925–4940 (2018)'
+- id: '19.009'
+  name: RNA tetraloops folding
+  shortname: RNA tetraloops ...
+  category: bio
+  keywords: metadynamics, RNA, folding
+  shortkeywords: metadynamics, RNA, foldin...
+  contributor: Giovanni Bussi
+  doi: 10.1021/acs.jpclett.6b01905
+  path: eggs/19/009/
+  reference: 'S. Bottaro, P. Banáš, J. Šponer, G. Bussi, Free Energy Landscape of GAGA and UUCG RNA Tetraloops, The Journal of Physical Chemistry Letters 7, 4032–4038 (2016)'
+- id: '19.008'
+  name: anncolvar
+  shortname: anncolvar
+  category: methods
+  keywords: neural network, dimensionality reduction
+  shortkeywords: neural network, dimension...
+  contributor: Vojtech Spiwok
+  doi: 10.3389/fmolb.2019.00025
+  path: eggs/19/008/
+  reference: 'D. Trapl et al., Anncolvar: Approximation of Complex Collective Variables by Artificial Neural Networks for Analysis and Biasing of Molecular Simulations, Frontiers in Molecular Biosciences 6 (2019)'
+- id: '19.007'
+  name: EMMI Microtubules
+  shortname: EMMI Microtubul...
+  category: bio
+  keywords: metainference, cryo-EM
+  shortkeywords: metainference, cryo-EM
+  contributor: Max Bonomi
+  doi: 10.1073/pnas.1900441116
+  path: eggs/19/007/
+  reference: 'L. Eshun-Wilson et al., Effects of α-tubulin acetylation on microtubule structure and stability, Proceedings of the National Academy of Sciences 116, 10366–10371 (2019)'
+- id: '19.006'
+  name: Flying Gaussian proof
+  shortname: Flying Gaussian...
+  category: methods
+  keywords: flying Gaussians, alanine dipeptide
+  shortkeywords: flying Gaussians, alanine...
+  contributor: Vojtech Spiwok
+  doi: 10.1021/acs.jpcb.7b09337
+  path: eggs/19/006/
+  reference: 'P. Kříž, Z. Šućur, V. Spiwok, Free-Energy Surface Prediction by Flying Gaussian Method: Multisystem Representation, The Journal of Physical Chemistry B 121, 10479–10483 (2017)'
+- id: '19.005'
+  name: Cmyc small molecule interaction
+  shortname: Cmyc small mole...
+  category: bio
+  keywords: metadynamics, metainference, disordered protein, small molecule interaction, c-myc, cancer, IDP
+  shortkeywords: metadynamics, metainferen...
+  contributor: Gabriella Heller
+  doi: 10.1016/j.jmb.2017.07.016
+  path: eggs/19/005/
+  reference: 'G. T. Heller et al., Sequence Specificity in the Entropy-Driven Binding of a Small Molecule and a Disordered Peptide, Journal of Molecular Biology 429, 2772–2779 (2017)'
+- id: '19.004'
+  name: MI Ubiquitin
+  shortname: MI Ubiquitin
+  category: bio
+  keywords: metainference, NMR
+  shortkeywords: metainference, NMR
+  contributor: Max Bonomi
+  doi: 10.1126/sciadv.1501177
+  path: eggs/19/004/
+  reference: 'M. Bonomi, C. Camilloni, A. Cavalli, M. Vendruscolo, Metainference: A Bayesian inference method for heterogeneous systems, Science Advances 2, e1501177 (2016)'
+- id: '19.003'
+  name: EMMI ClpP
+  shortname: EMMI ClpP
+  category: bio
+  keywords: metainference, cryo-EM
+  shortkeywords: metainference, cryo-EM
+  contributor: Max Bonomi
+  doi: 10.1073/pnas.1805125115
+  path: eggs/19/003/
+  reference: 'S. Vahidi et al., Reversible inhibition of the ClpP protease via an N-terminal conformational switch, Proceedings of the National Academy of Sciences 115, E6447–E6456 (2018)'
+- id: '19.002'
+  name: EMMI STRA6
+  shortname: EMMI STRA6
+  category: bio
+  keywords: metainference, cryo-EM
+  shortkeywords: metainference, cryo-EM
+  contributor: Max Bonomi
+  doi: 10.1016/j.bpj.2018.02.028
+  path: eggs/19/002/
+  reference: 'M. Bonomi, R. Pellarin, M. Vendruscolo, Simultaneous Determination of Protein Structure and Dynamics Using Cryo-Electron Microscopy, Biophysical Journal 114, 1604–1613 (2018)'
+- id: '19.001'
+  name: RNA SHAPE
+  shortname: RNA SHAPE
+  category: bio
+  keywords: metadynamics, RNA, ligand binding
+  shortkeywords: metadynamics, RNA, ligand...
+  contributor: Giovanni Bussi
+  doi: 10.1021/acs.jpclett.7b02921
+  path: eggs/19/001/
+  reference: 'V. Mlýnský, G. Bussi, Molecular Dynamics Simulations Reveal an Interplay between SHAPE Reagent Binding and RNA Flexibility, The Journal of Physical Chemistry Letters 9, 313–318 (2018)'
+- id: '19.000'
+  name: VesDeltaF
+  shortname: VesDeltaF
+  category: methods
+  keywords: VES, convergence, suboptimal CVs
+  shortkeywords: VES, convergence, subopti...
+  contributor: Michele Invernizzi
+  doi: 10.1021/acs.jctc.9b00032
+  path: eggs/19/000/
+  reference: 'M. Invernizzi, M. Parrinello, Making the Best of a Bad Situation: A Multiscale Approach to Free Energy Calculation, Journal of Chemical Theory and Computation 15, 2187–2194 (2019)'

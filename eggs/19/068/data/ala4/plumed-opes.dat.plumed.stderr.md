@@ -1,0 +1,7 @@
+**Project ID:** [plumID:19.068]({{ '/' | absolute_url }}eggs/19/068/)  
+Stderr for source:  ala4/plumed-opes.dat   
+(download [zipped raw stdout](plumed-opes.dat.plumed.stdout.txt.zip))  
+{% raw %}
+<pre>
+</pre>
+{% endraw %}
