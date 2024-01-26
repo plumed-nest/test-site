@@ -1,0 +1,54 @@
+**Project ID:** [plumID:21.002]({{ '/' | absolute_url }}eggs/21/002/)  
+**Source:** Crystallization/IceIc/64molecules/350K/plumed.start.dat  
+**Originally used with PLUMED version:** 2.8  
+**Stable:** [zipped raw stdout](plumed.start.dat.plumed.stdout.txt.zip) - [zipped raw stderr](plumed.start.dat.plumed.stderr.txt.zip) - [stderr](plumed.start.dat.plumed.stderr)  
+**Master:** [zipped raw stdout](plumed.start.dat.plumed_master.stdout.txt.zip) - [zipped raw stderr](plumed.start.dat.plumed_master.stderr.txt.zip) - [stderr](plumed.start.dat.plumed_master.stderr)  
+
+{% raw %}
+<div style="width: 100%; float:left">
+<div style="width: 90%; float:left" id="value_details_data/Crystallization/IceIc/64molecules/350K/plumed.start.dat"> Click on the labels of the actions for more information on what each action computes </div>
+<div style="width: 10%; float:left"><table><tr><td style="padding:1px"><a href="plumed.start.dat.plumed.stderr"><img src="https://img.shields.io/badge/v2.9-passing-green.svg" alt="tested onv2.9" /></a></td></tr><tr><td style="padding:1px"><a href="plumed.start.dat.plumed_master.stderr"><img src="https://img.shields.io/badge/master-passing-green.svg" alt="tested onmaster" /></a></td></tr></table></div></div>
+<pre style="width=97%;">
+<span style="color:blue">#SETTINGS NREPLICAS=2</span>
+<div class="tooltip" style="color:blue"># vim:ft=plumed<div class="right">Enables syntax highlighting for PLUMED files in vim. See <a href="https://www.plumed.org/doc-master/user-doc/html/_vim_syntax.html">here for more details. </a><i></i></div></div>
+<br/><div class="tooltip" style="color:green">RESTART<div class="right">Activate restart. <a href="https://www.plumed.org/doc-master/user-doc/html/_r_e_s_t_a_r_t.html" style="color:green">More details</a><i></i></div></div>
+<br/><b name="data/Crystallization/IceIc/64molecules/350K/plumed.start.datvol" onclick='showPath("data/Crystallization/IceIc/64molecules/350K/plumed.start.dat","data/Crystallization/IceIc/64molecules/350K/plumed.start.datvol")'>vol</b>: <div class="tooltip" style="color:green">VOLUME<div class="right">Calculate the volume of the simulation box. <a href="https://www.plumed.org/doc-master/user-doc/html/_v_o_l_u_m_e.html" style="color:green">More details</a><i></i></div></div>
+<br/><span style="display:none;" id="data/Crystallization/IceIc/64molecules/350K/plumed.start.datvol">The VOLUME action with label <b>vol</b> calculates a scalar quantity</span><div class="tooltip" style="color:green">ENVIRONMENTSIMILARITY<div class="right">Measure how similar the environment around atoms is to that found in some reference crystal structure. <a href="https://www.plumed.org/doc-master/user-doc/html/_e_n_v_i_r_o_n_m_e_n_t_s_i_m_i_l_a_r_i_t_y.html" style="color:green">More details</a><i></i></div></div> ...
+ <div class="tooltip">SPECIES<div class="right">this keyword is used for colvars such as coordination number<i></i></div></div>=1-192:3
+ <div class="tooltip">SIGMA<div class="right"> Broadening parameter<i></i></div></div>=0.050
+ <div class="tooltip">CRYSTAL_STRUCTURE<div class="right"> Targeted crystal structure<i></i></div></div>=CUSTOM
+ <div class="tooltip">LABEL<div class="right">a label for the action so that its output can be referenced in the input to other actions<i></i></div></div>=<b name="data/Crystallization/IceIc/64molecules/350K/plumed.start.datrefcv" onclick='showPath("data/Crystallization/IceIc/64molecules/350K/plumed.start.dat","data/Crystallization/IceIc/64molecules/350K/plumed.start.datrefcv")'>refcv</b>
+ <div class="tooltip">REFERENCE_1<div class="right">PDB files with relative distances from central atom<i></i></div></div>=env1c.pdb
+ <div class="tooltip">REFERENCE_2<div class="right">PDB files with relative distances from central atom<i></i></div></div>=env2c.pdb
+ <div class="tooltip">MORE_THAN<div class="right">calculate the number of variables more than a certain target value<i></i></div></div>={RATIONAL R_0=0.5 NN=8 MM=16}
+ <div class="tooltip">MEAN<div class="right">take the mean of these variables<i></i></div></div>
+... ENVIRONMENTSIMILARITY
+<br/><span style="color:blue"># Construct a bias potential using VES</span>
+<span style="color:blue">#</span>
+<span style="color:blue"># Basis functions</span>
+<br/><span style="display:none;" id="data/Crystallization/IceIc/64molecules/350K/plumed.start.datrefcv">The ENVIRONMENTSIMILARITY action with label <b>refcv</b> calculates the following quantities:<table  align="center" frame="void" width="95%" cellpadding="5%"><tr><td width="5%"><b> Quantity </b>  </td><td><b> Description </b> </td></tr><tr><td width="5%">refcv.mean</td><td>the mean value</td></tr><tr><td width="5%">refcv.morethan</td><td>the number of values more than a target value</td></tr></table></span><b name="data/Crystallization/IceIc/64molecules/350K/plumed.start.datbf1" onclick='showPath("data/Crystallization/IceIc/64molecules/350K/plumed.start.dat","data/Crystallization/IceIc/64molecules/350K/plumed.start.datbf1")'>bf1</b>: <div class="tooltip" style="color:green">BF_LEGENDRE<div class="right">Legendre polynomials basis functions. <a href="https://www.plumed.org/doc-master/user-doc/html/_b_f__l_e_g_e_n_d_r_e.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">ORDER<div class="right">The order of the basis function expansion<i></i></div></div>=40 <div class="tooltip">MINIMUM<div class="right">The minimum of the interval on which the basis functions are defined<i></i></div></div>=0.0 <div class="tooltip">MAXIMUM<div class="right">The maximum of the interval on which the basis functions are defined<i></i></div></div>=64.0
+<br/><span style="color:blue"># Target distribution</span>
+<br/><b name="data/Crystallization/IceIc/64molecules/350K/plumed.start.dattd_uni" onclick='showPath("data/Crystallization/IceIc/64molecules/350K/plumed.start.dat","data/Crystallization/IceIc/64molecules/350K/plumed.start.dattd_uni")'>td_uni</b>: <div class="tooltip" style="color:green">TD_UNIFORM<div class="right">Uniform target distribution (static). <a href="https://www.plumed.org/doc-master/user-doc/html/_t_d__u_n_i_f_o_r_m.html" style="color:green">More details</a><i></i></div></div>
+<br/><span style="color:blue"># Expansion</span>
+<br/><div class="tooltip" style="color:green">VES_LINEAR_EXPANSION<div class="right">Linear basis set expansion bias. <a href="https://www.plumed.org/doc-master/user-doc/html/_v_e_s__l_i_n_e_a_r__e_x_p_a_n_s_i_o_n.html" style="color:green">More details</a><i></i></div></div> ...
+ <div class="tooltip">ARG<div class="right">the input for this action is the scalar output from one or more other actions<i></i></div></div>=<b name="data/Crystallization/IceIc/64molecules/350K/plumed.start.datrefcv">refcv.morethan</b>
+ <div class="tooltip">BASIS_FUNCTIONS<div class="right">the label of the one dimensional basis functions that should be used<i></i></div></div>=<b name="data/Crystallization/IceIc/64molecules/350K/plumed.start.datbf1">bf1</b>
+ <div class="tooltip">TEMP<div class="right">the system temperature - this is needed if the MD code does not pass the temperature to PLUMED<i></i></div></div>=350.0
+ <div class="tooltip">GRID_BINS<div class="right">the number of bins used for the grid<i></i></div></div>=300
+ <div class="tooltip">TARGET_DISTRIBUTION<div class="right">the label of the target distribution to be used<i></i></div></div>=<b name="data/Crystallization/IceIc/64molecules/350K/plumed.start.dattd_uni">td_uni</b>
+ <div class="tooltip">LABEL<div class="right">a label for the action so that its output can be referenced in the input to other actions<i></i></div></div>=<b name="data/Crystallization/IceIc/64molecules/350K/plumed.start.datb1" onclick='showPath("data/Crystallization/IceIc/64molecules/350K/plumed.start.dat","data/Crystallization/IceIc/64molecules/350K/plumed.start.datb1")'>b1</b>
+... VES_LINEAR_EXPANSION
+<br/><span style="color:blue"># Optimization algorithm</span>
+<br/><span style="display:none;" id="data/Crystallization/IceIc/64molecules/350K/plumed.start.datb1">The VES_LINEAR_EXPANSION action with label <b>b1</b> calculates the following quantities:<table  align="center" frame="void" width="95%" cellpadding="5%"><tr><td width="5%"><b> Quantity </b>  </td><td><b> Description </b> </td></tr><tr><td width="5%">b1.bias</td><td>the instantaneous value of the bias potential</td></tr><tr><td width="5%">b1.force2</td><td>the instantaneous value of the squared force due to this bias potential</td></tr></table></span><div class="tooltip" style="color:green">OPT_AVERAGED_SGD<div class="right">Averaged stochastic gradient decent with fixed step size. <a href="https://www.plumed.org/doc-master/user-doc/html/_o_p_t__a_v_e_r_a_g_e_d__s_g_d.html" style="color:green">More details</a><i></i></div></div> ...
+  <div class="tooltip">BIAS<div class="right">the label of the VES bias to be optimized<i></i></div></div>=<b name="data/Crystallization/IceIc/64molecules/350K/plumed.start.datb1">b1</b>
+  <div class="tooltip">STRIDE<div class="right">the frequency of updating the coefficients given in the number of MD steps<i></i></div></div>=500
+  <div class="tooltip">LABEL<div class="right">a label for the action so that its output can be referenced in the input to other actions<i></i></div></div>=<b name="data/Crystallization/IceIc/64molecules/350K/plumed.start.dato1" onclick='showPath("data/Crystallization/IceIc/64molecules/350K/plumed.start.dat","data/Crystallization/IceIc/64molecules/350K/plumed.start.dato1")'>o1</b>
+  <div class="tooltip">STEPSIZE<div class="right">the step size used for the optimization<i></i></div></div>=5
+  <div class="tooltip">FES_OUTPUT<div class="right">how often the FES(s) should be written out to file<i></i></div></div>=500
+  <div class="tooltip">BIAS_OUTPUT<div class="right">how often the bias(es) should be written out to file<i></i></div></div>=500
+  <div class="tooltip">COEFFS_OUTPUT<div class="right"> how often the coefficients should be written to file<i></i></div></div>=100
+  <span style="color:blue">#MULTIPLE_WALKERS</span>
+... OPT_AVERAGED_SGD
+<br/><span style="display:none;" id="data/Crystallization/IceIc/64molecules/350K/plumed.start.dato1">The OPT_AVERAGED_SGD action with label <b>o1</b> calculates a scalar quantity</span><div class="tooltip" style="color:green">PRINT<div class="right">Print quantities to a file. <a href="https://www.plumed.org/doc-master/user-doc/html/_p_r_i_n_t.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">STRIDE<div class="right"> the frequency with which the quantities of interest should be output<i></i></div></div>=500  <div class="tooltip">ARG<div class="right">the input for this action is the scalar output from one or more other actions<i></i></div></div> <div class="tooltip">FILE<div class="right">the name of the file on which to output these quantities<i></i></div></div>=COLVAR
+</pre>
+{% endraw %}

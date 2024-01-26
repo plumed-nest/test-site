@@ -1,0 +1,45 @@
+**Project ID:** [plumID:19.049]({{ '/' | absolute_url }}eggs/19/049/)  
+**Source:** plumed_urea.dat  
+**Originally used with PLUMED version:** not specified  
+**Stable:** [zipped raw stdout](plumed_urea.dat.plumed.stdout.txt.zip) - [zipped raw stderr](plumed_urea.dat.plumed.stderr.txt.zip) - [stderr](plumed_urea.dat.plumed.stderr)  
+**Master:** [zipped raw stdout](plumed_urea.dat.plumed_master.stdout.txt.zip) - [zipped raw stderr](plumed_urea.dat.plumed_master.stderr.txt.zip) - [stderr](plumed_urea.dat.plumed_master.stderr)  
+
+{% raw %}
+<div style="width: 100%; float:left">
+<div style="width: 90%; float:left" id="value_details_data/plumed_urea.dat"> Click on the labels of the actions for more information on what each action computes </div>
+<div style="width: 10%; float:left"><table><tr><td style="padding:1px"><a href="plumed_urea.dat.plumed.stderr"><img src="https://img.shields.io/badge/v2.9-passing-green.svg" alt="tested onv2.9" /></a></td></tr><tr><td style="padding:1px"><a href="plumed_urea.dat.plumed_master.stderr"><img src="https://img.shields.io/badge/master-passing-green.svg" alt="tested onmaster" /></a></td></tr></table></div></div>
+<pre style="width=97%;">
+<span style="color:blue">#SETTINGS NATOMS=32768</span>
+<span style="color:blue"># Use the vector connecting the carbon and oxygen atoms of each urea</span>
+<span style="color:blue"># molecule in the system to define the orientations of the molecules </span>
+<b name="data/plumed_urea.datm1" onclick='showPath("data/plumed_urea.dat","data/plumed_urea.datm1")'>m1</b>: <div class="tooltip" style="color:green">MOLECULES<div class="right">Calculate the vectors connecting a pair of atoms in order to represent the orientation of a molecule. <a href="https://www.plumed.org/doc-master/user-doc/html/_m_o_l_e_c_u_l_e_s.html" style="color:green">More details</a><i></i></div></div> ...
+  <div class="tooltip">MOL1<div class="right">The numerical indices of the atoms in the molecule<i></i></div></div>=1,2,1
+  <div class="tooltip">MOL2<div class="right">The numerical indices of the atoms in the molecule<i></i></div></div>=9,10,9
+...	 
+<br/><span style="color:blue"># Calculate the SMAC parameter for each of the molecules.  Essentially</span>
+<span style="color:blue"># measures whether or not molecules in the first coordination sphere </span>
+<span style="color:blue"># have a similar orientation to the central molecule.</span>
+<span style="display:none;" id="data/plumed_urea.datm1">The MOLECULES action with label <b>m1</b> calculates a scalar quantity</span><b name="data/plumed_urea.datsmac" onclick='showPath("data/plumed_urea.dat","data/plumed_urea.datsmac")'>smac</b>: <div class="tooltip" style="color:green">SMAC<div class="right">Calculate a variant on the SMAC collective variable <a href="https://www.plumed.org/doc-master/user-doc/html/_s_m_a_c.html" style="color:green">More details</a><i></i></div></div> ...
+   <div class="tooltip">SPECIES<div class="right">this keyword is used for colvars such as coordination number<i></i></div></div>=<b name="data/plumed_urea.datm1">m1</b> 
+   <div class="tooltip">SWITCH<div class="right">This keyword is used if you want to employ an alternative to the continuous switching function defined above<i></i></div></div>={RATIONAL D_0=0.639 R_0=0.1 D_MAX=0.64} 
+   <div class="tooltip">KERNEL1<div class="right">The kernels used in the function of the angle<i></i></div></div>={TRIANGULAR CENTER=0 SIGMA=0.8}
+   <div class="tooltip">KERNEL2<div class="right">The kernels used in the function of the angle<i></i></div></div>={TRIANGULAR CENTER=pi SIGMA=0.7}
+   <div class="tooltip">SWITCH_COORD<div class="right">This keyword is used to define the coordination switching function<i></i></div></div>={RATIONAL R_0=0.001}
+... 
+<br/><span style="color:blue"># Use a filter so as to ignore molecules that are not sat in a solid-like,</span>
+<span style="color:blue"># ordered environment.</span>
+<span style="display:none;" id="data/plumed_urea.datsmac">The SMAC action with label <b>smac</b> calculates a scalar quantity</span><b name="data/plumed_urea.datff" onclick='showPath("data/plumed_urea.dat","data/plumed_urea.datff")'>ff</b>: <div class="tooltip" style="color:green">MFILTER_MORE<div class="right">This action can be used to filter the distribution of colvar values in a ef mcolv <a href="https://www.plumed.org/doc-master/user-doc/html/_m_f_i_l_t_e_r__m_o_r_e.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">DATA<div class="right">The multicolvar that calculates the set of base quantities that we are interested in<i></i></div></div>=<b name="data/plumed_urea.datsmac">smac</b> <div class="tooltip">SWITCH<div class="right">This keyword is used if you want to employ an alternative to the continuous switching function defined above<i></i></div></div>={GAUSSIAN D_0=0.49 R_0=0.5 D_MAX=0.5}
+<span style="color:blue"># Build a contact matrix for the molecules that are in a part of the simulation </span>
+<span style="color:blue"># box where the structure is ordered</span>
+<span style="display:none;" id="data/plumed_urea.datff">The MFILTER_MORE action with label <b>ff</b> calculates a scalar quantity</span><b name="data/plumed_urea.datc1" onclick='showPath("data/plumed_urea.dat","data/plumed_urea.datc1")'>c1</b>: <div class="tooltip" style="color:green">CONTACT_MATRIX<div class="right">Adjacency matrix in which two atoms are adjacent if they are within a certain cutoff. <a href="https://www.plumed.org/doc-master/user-doc/html/_c_o_n_t_a_c_t__m_a_t_r_i_x.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">ATOMS<div class="right">The list of atoms for which you would like to calculate the contact matrix<i></i></div></div>=<b name="data/plumed_urea.datff">ff</b> <div class="tooltip">SWITCH<div class="right">This keyword is used if you want to employ an alternative to the continuous switching function defined above<i></i></div></div>={RATIONAL D_0=0.639 R_0=0.01 D_MAX=0.64} 
+<span style="color:blue"># Perform depth first search clustering on the contact matrix</span>
+<span style="display:none;" id="data/plumed_urea.datc1">The CONTACT_MATRIX action with label <b>c1</b> calculates a scalar quantity</span><b name="data/plumed_urea.datdfs" onclick='showPath("data/plumed_urea.dat","data/plumed_urea.datdfs")'>dfs</b>: <div class="tooltip" style="color:green">DFSCLUSTERING<div class="right">Find the connected components of the matrix using the depth first search clustering algorithm. <a href="https://www.plumed.org/doc-master/user-doc/html/_d_f_s_c_l_u_s_t_e_r_i_n_g.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">MATRIX<div class="right">the action that calculates the adjacency matrix vessel we would like to analyze<i></i></div></div>=<b name="data/plumed_urea.datc1">c1</b>
+<span style="color:blue"># Find the sum of the coordination numbers for the atoms in this largest cluster.</span>
+<span style="display:none;" id="data/plumed_urea.datdfs">The DFSCLUSTERING action with label <b>dfs</b> calculates a scalar quantity</span><b name="data/plumed_urea.datcc1" onclick='showPath("data/plumed_urea.dat","data/plumed_urea.datcc1")'>cc1</b>: <div class="tooltip" style="color:green">CLUSTER_PROPERTIES<div class="right">Calculate properties of the distribution of some quantities that are part of a connected component <a href="https://www.plumed.org/doc-master/user-doc/html/_c_l_u_s_t_e_r__p_r_o_p_e_r_t_i_e_s.html" style="color:green">More details</a><i></i></div></div> ...
+  <div class="tooltip">CLUSTERS<div class="right">the label of the action that does the clustering<i></i></div></div>=<b name="data/plumed_urea.datdfs">dfs</b> <div class="tooltip">CLUSTER<div class="right"> which cluster would you like to look at 1 is the largest cluster, 2 is the second largest, 3 is the the third largest and so on<i></i></div></div>=1 
+  <div class="tooltip">MORE_THAN<div class="right">calculate the number of variables more than a certain target value<i></i></div></div>={GAUSSIAN D_0=0.49 R_0=0.5 D_MAX=0.5}
+... 
+<span style="color:blue"># Print information on the number of atoms in the cluster to a file.</span>
+<span style="display:none;" id="data/plumed_urea.datcc1">The CLUSTER_PROPERTIES action with label <b>cc1</b> calculates the following quantities:<table  align="center" frame="void" width="95%" cellpadding="5%"><tr><td width="5%"><b> Quantity </b>  </td><td><b> Description </b> </td></tr><tr><td width="5%">cc1.morethan</td><td>the number of values more than a target value</td></tr></table></span><div class="tooltip" style="color:green">PRINT<div class="right">Print quantities to a file. <a href="https://www.plumed.org/doc-master/user-doc/html/_p_r_i_n_t.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">ARG<div class="right">the input for this action is the scalar output from one or more other actions<i></i></div></div>=<b name="data/plumed_urea.datcc1">cc1</b> <div class="tooltip">FILE<div class="right">the name of the file on which to output these quantities<i></i></div></div>=colvar
+</pre>
+{% endraw %}

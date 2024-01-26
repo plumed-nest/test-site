@@ -1,0 +1,47 @@
+**Project ID:** [plumID:19.027]({{ '/' | absolute_url }}eggs/19/027/)  
+**Source:** MulticanonicalSimulations/Multicanonical/Input/plumed.dat  
+**Originally used with PLUMED version:** 2.4-dev  
+**Stable:** [zipped raw stdout](plumed.dat.plumed.stdout.txt.zip) - [zipped raw stderr](plumed.dat.plumed.stderr.txt.zip) - [stderr](plumed.dat.plumed.stderr)  
+**Master:** [zipped raw stdout](plumed.dat.plumed_master.stdout.txt.zip) - [zipped raw stderr](plumed.dat.plumed_master.stderr.txt.zip) - [stderr](plumed.dat.plumed_master.stderr)  
+
+{% raw %}
+<div style="width: 100%; float:left">
+<div style="width: 90%; float:left" id="value_details_data/MulticanonicalSimulations/Multicanonical/Input/plumed.dat"> Click on the labels of the actions for more information on what each action computes </div>
+<div style="width: 10%; float:left"><table><tr><td style="padding:1px"><a href="plumed.dat.plumed.stderr"><img src="https://img.shields.io/badge/v2.9-passing-green.svg" alt="tested onv2.9" /></a></td></tr><tr><td style="padding:1px"><a href="plumed.dat.plumed_master.stderr"><img src="https://img.shields.io/badge/master-passing-green.svg" alt="tested onmaster" /></a></td></tr></table></div></div>
+<pre style="width=97%;">
+<div class="tooltip" style="color:blue"># vim:ft=plumed<div class="right">Enables syntax highlighting for PLUMED files in vim. See <a href="https://www.plumed.org/doc-master/user-doc/html/_vim_syntax.html">here for more details. </a><i></i></div></div>
+<br/><div class="tooltip" style="color:green">RESTART<div class="right">Activate restart. <a href="https://www.plumed.org/doc-master/user-doc/html/_r_e_s_t_a_r_t.html" style="color:green">More details</a><i></i></div></div>
+<br/><div class="tooltip" style="color:green">UNITS<div class="right">This command sets the internal units for the code. <a href="https://www.plumed.org/doc-master/user-doc/html/_u_n_i_t_s.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">LENGTH<div class="right">the units of lengths<i></i></div></div>=A
+<br/><b name="data/MulticanonicalSimulations/Multicanonical/Input/plumed.datenergy" onclick='showPath("data/MulticanonicalSimulations/Multicanonical/Input/plumed.dat","data/MulticanonicalSimulations/Multicanonical/Input/plumed.datenergy")'>energy</b>: <div class="tooltip" style="color:green">ENERGY<div class="right">Calculate the total potential energy of the simulation box. <a href="https://www.plumed.org/doc-master/user-doc/html/_e_n_e_r_g_y.html" style="color:green">More details</a><i></i></div></div>
+<br/><span style="color:blue"># Construct a bias potential using VES</span>
+<span style="color:blue">#</span>
+<span style="color:blue"># Basis functions</span>
+<br/><b name="data/MulticanonicalSimulations/Multicanonical/Input/plumed.datbf1" onclick='showPath("data/MulticanonicalSimulations/Multicanonical/Input/plumed.dat","data/MulticanonicalSimulations/Multicanonical/Input/plumed.datbf1")'>bf1</b>: <div class="tooltip" style="color:green">BF_LEGENDRE<div class="right">Legendre polynomials basis functions. <a href="https://www.plumed.org/doc-master/user-doc/html/_b_f__l_e_g_e_n_d_r_e.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">ORDER<div class="right">The order of the basis function expansion<i></i></div></div>=20 <div class="tooltip">MINIMUM<div class="right">The minimum of the interval on which the basis functions are defined<i></i></div></div>=-25000 <div class="tooltip">MAXIMUM<div class="right">The maximum of the interval on which the basis functions are defined<i></i></div></div>=-23500
+<br/><span style="color:blue"># Target distributions</span>
+<br/><div class="tooltip" style="color:green">TD_MULTICANONICAL<div class="right">Multicanonical target distribution (dynamic). <a href="https://www.plumed.org/doc-master/user-doc/html/_t_d__m_u_l_t_i_c_a_n_o_n_i_c_a_l.html" style="color:green">More details</a><i></i></div></div> ...
+ <div class="tooltip">LABEL<div class="right">a label for the action so that its output can be referenced in the input to other actions<i></i></div></div>=<b name="data/MulticanonicalSimulations/Multicanonical/Input/plumed.dattd_multi" onclick='showPath("data/MulticanonicalSimulations/Multicanonical/Input/plumed.dat","data/MulticanonicalSimulations/Multicanonical/Input/plumed.dattd_multi")'>td_multi</b>
+ <div class="tooltip">SIGMA<div class="right">The standard deviation parameters of the Gaussian kernels used for smoothing the target distribution<i></i></div></div>=50.0
+ <div class="tooltip">MIN_TEMP<div class="right">Minimum temperature<i></i></div></div>=400
+ <div class="tooltip">MAX_TEMP<div class="right">Maximum temperature<i></i></div></div>=600
+ <div class="tooltip">THRESHOLD<div class="right"> Maximum exploration free energy in kT<i></i></div></div>=1
+... TD_MULTICANONICAL
+
+<br/><span style="color:blue"># Expansion</span>
+<br/><div class="tooltip" style="color:green">VES_LINEAR_EXPANSION<div class="right">Linear basis set expansion bias. <a href="https://www.plumed.org/doc-master/user-doc/html/_v_e_s__l_i_n_e_a_r__e_x_p_a_n_s_i_o_n.html" style="color:green">More details</a><i></i></div></div> ...
+ <div class="tooltip">ARG<div class="right">the input for this action is the scalar output from one or more other actions<i></i></div></div>=<b name="data/MulticanonicalSimulations/Multicanonical/Input/plumed.datenergy">energy</b>
+ <div class="tooltip">BASIS_FUNCTIONS<div class="right">the label of the one dimensional basis functions that should be used<i></i></div></div>=<b name="data/MulticanonicalSimulations/Multicanonical/Input/plumed.datbf1">bf1</b>
+ <div class="tooltip">TEMP<div class="right">the system temperature - this is needed if the MD code does not pass the temperature to PLUMED<i></i></div></div>=500.0
+ <div class="tooltip">GRID_BINS<div class="right">the number of bins used for the grid<i></i></div></div>=1000
+ <div class="tooltip">TARGET_DISTRIBUTION<div class="right">the label of the target distribution to be used<i></i></div></div>=<b name="data/MulticanonicalSimulations/Multicanonical/Input/plumed.dattd_multi">td_multi</b>
+ <div class="tooltip">LABEL<div class="right">a label for the action so that its output can be referenced in the input to other actions<i></i></div></div>=<b name="data/MulticanonicalSimulations/Multicanonical/Input/plumed.datb1" onclick='showPath("data/MulticanonicalSimulations/Multicanonical/Input/plumed.dat","data/MulticanonicalSimulations/Multicanonical/Input/plumed.datb1")'>b1</b>
+... VES_LINEAR_EXPANSION
+<br/><span style="color:blue"># Optimization algorithm</span>
+<br/><span style="display:none;" id="data/MulticanonicalSimulations/Multicanonical/Input/plumed.datb1">The VES_LINEAR_EXPANSION action with label <b>b1</b> calculates the following quantities:<table  align="center" frame="void" width="95%" cellpadding="5%"><tr><td width="5%"><b> Quantity </b>  </td><td><b> Description </b> </td></tr><tr><td width="5%">b1.bias</td><td>the instantaneous value of the bias potential</td></tr><tr><td width="5%">b1.force2</td><td>the instantaneous value of the squared force due to this bias potential</td></tr></table></span><div class="tooltip" style="color:green">OPT_DUMMY<div class="right">Dummy optimizer for debugging. <a href="https://www.plumed.org/doc-master/user-doc/html/_o_p_t__d_u_m_m_y.html" style="color:green">More details</a><i></i></div></div> ...
+  <div class="tooltip">BIAS<div class="right">the label of the VES bias to be optimized<i></i></div></div>=<b name="data/MulticanonicalSimulations/Multicanonical/Input/plumed.datb1">b1</b>
+  <div class="tooltip">STRIDE<div class="right">the frequency of updating the coefficients given in the number of MD steps<i></i></div></div>=500
+  <div class="tooltip">LABEL<div class="right">a label for the action so that its output can be referenced in the input to other actions<i></i></div></div>=<b name="data/MulticanonicalSimulations/Multicanonical/Input/plumed.dato1" onclick='showPath("data/MulticanonicalSimulations/Multicanonical/Input/plumed.dat","data/MulticanonicalSimulations/Multicanonical/Input/plumed.dato1")'>o1</b>
+  <div class="tooltip">COEFFS_OUTPUT<div class="right"> how often the coefficients should be written to file<i></i></div></div>=10
+... OPT_DUMMY
+<br/><span style="display:none;" id="data/MulticanonicalSimulations/Multicanonical/Input/plumed.dato1">The OPT_DUMMY action with label <b>o1</b> calculates a scalar quantity</span><div class="tooltip" style="color:green">PRINT<div class="right">Print quantities to a file. <a href="https://www.plumed.org/doc-master/user-doc/html/_p_r_i_n_t.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">ARG<div class="right">the input for this action is the scalar output from one or more other actions<i></i></div></div> <div class="tooltip">FILE<div class="right">the name of the file on which to output these quantities<i></i></div></div>=COLVAR <div class="tooltip">STRIDE<div class="right"> the frequency with which the quantities of interest should be output<i></i></div></div>=500
+</pre>
+{% endraw %}

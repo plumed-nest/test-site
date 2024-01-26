@@ -1,0 +1,37 @@
+**Project ID:** [plumID:19.000]({{ '/' | absolute_url }}eggs/19/000/)  
+**Source:** sodium/plumed-ves.dat  
+**Originally used with PLUMED version:** 2.6-dev  
+**Stable:** [zipped raw stdout](plumed-ves.dat.plumed.stdout.txt.zip) - [zipped raw stderr](plumed-ves.dat.plumed.stderr.txt.zip) - [stderr](plumed-ves.dat.plumed.stderr)  
+**Master:** [zipped raw stdout](plumed-ves.dat.plumed_master.stdout.txt.zip) - [zipped raw stderr](plumed-ves.dat.plumed_master.stderr.txt.zip) - [stderr](plumed-ves.dat.plumed_master.stderr)  
+
+{% raw %}
+<div style="width: 100%; float:left">
+<div style="width: 90%; float:left" id="value_details_data/sodium/plumed-ves.dat"> Click on the labels of the actions for more information on what each action computes </div>
+<div style="width: 10%; float:left"><table><tr><td style="padding:1px"><a href="plumed-ves.dat.plumed.stderr"><img src="https://img.shields.io/badge/v2.9-passing-green.svg" alt="tested onv2.9" /></a></td></tr><tr><td style="padding:1px"><a href="plumed-ves.dat.plumed_master.stderr"><img src="https://img.shields.io/badge/master-failed-red.svg" alt="tested onmaster" /></a></td></tr><tr><td style="padding:1px"><img src="https://img.shields.io/badge/with-LOAD-yellow.svg" alt="tested on master" /></td></tr>
+</table></div></div>
+<pre style="width=97%;">
+<span style="color:blue">#SETTINGS NATOMS=250</span>
+<div class="tooltip" style="color:blue"># vim:ft=plumed<div class="right">Enables syntax highlighting for PLUMED files in vim. See <a href="https://www.plumed.org/doc-master/user-doc/html/_vim_syntax.html">here for more details. </a><i></i></div></div>
+<div class="tooltip" style="color:green">LOAD<div class="right">Loads a library, possibly defining new actions. <a href="https://www.plumed.org/doc-master/user-doc/html/_l_o_a_d.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">FILE<div class="right">file to be loaded<i></i></div></div>=DebyeStructureFactor.cpp
+<div class="tooltip" style="color:green">UNITS<div class="right">This command sets the internal units for the code. <a href="https://www.plumed.org/doc-master/user-doc/html/_u_n_i_t_s.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">LENGTH<div class="right">the units of lengths<i></i></div></div>=A
+<br/><b name="data/sodium/plumed-ves.datene" onclick='showPath("data/sodium/plumed-ves.dat","data/sodium/plumed-ves.datene")'>ene</b>: <div class="tooltip" style="color:green">ENERGY<div class="right">Calculate the total potential energy of the simulation box. <a href="https://www.plumed.org/doc-master/user-doc/html/_e_n_e_r_g_y.html" style="color:green">More details</a><i></i></div></div>
+<b name="data/sodium/plumed-ves.datcv" onclick='showPath("data/sodium/plumed-ves.dat","data/sodium/plumed-ves.datcv")'>cv</b>: <div class="tooltip" style="color:green">DEBYE_STRUCTURE_FACTOR<div class="right">This action is not part of PLUMED and was included by using a LOAD command <a href="https://www.plumed.org/doc-master/user-doc/html/_l_o_a_d.html" style="color:green">More details</a><i></i></div></div> CUTOFF=10.5 ACTIVE_Q=2.070595
+<br/><div class="tooltip" style="color:green">VES_DELTA_F<div class="right">Implementation of VES Delta F method <a href="https://www.plumed.org/doc-master/user-doc/html/_v_e_s__d_e_l_t_a__f.html" style="color:green">More details</a><i></i></div></div> ...
+  <div class="tooltip">LABEL<div class="right">a label for the action so that its output can be referenced in the input to other actions<i></i></div></div>=<b name="data/sodium/plumed-ves.datves" onclick='showPath("data/sodium/plumed-ves.dat","data/sodium/plumed-ves.datves")'>ves</b>
+  <div class="tooltip">ARG<div class="right">the input for this action is the scalar output from one or more other actions<i></i></div></div>=<b name="data/sodium/plumed-ves.datcv">cv</b>
+  <div class="tooltip">FILE_F0<div class="right">names of files containing local free energies and derivatives<i></i></div></div>=fesA.data
+  <div class="tooltip">FILE_F1<div class="right">names of files containing local free energies and derivatives<i></i></div></div>=fesB.data
+  <div class="tooltip">TEMP<div class="right">temperature is compulsory, but it can be sometimes fetched from the MD engine<i></i></div></div>=350
+  <div class="tooltip">AV_STRIDE<div class="right"> number of simulation steps between alpha updates<i></i></div></div>=500
+  <div class="tooltip">BIASFACTOR<div class="right"> the gamma bias factor used for well-tempered target p(s)<i></i></div></div>=20
+  <div class="tooltip">M_STEP<div class="right"> the mu step used for the Omega functional minimization<i></i></div></div>=1
+  <div class="tooltip">PRINT_STRIDE<div class="right"> stride for printing to ALPHA_FILE<i></i></div></div>=100
+  <div class="tooltip">ALPHA_FILE<div class="right"> file name for output minimization parameters<i></i></div></div>=Alpha.data
+... VES_DELTA_F
+<span style="display:none;" id="data/sodium/plumed-ves.datves">The VES_DELTA_F action with label <b>ves</b> calculates the following quantities:<table  align="center" frame="void" width="95%" cellpadding="5%"><tr><td width="5%"><b> Quantity </b>  </td><td><b> Description </b> </td></tr><tr><td width="5%">ves.bias</td><td>the instantaneous value of the bias potential</td></tr><tr><td width="5%">ves.rct</td><td>the reweighting factor c(t)</td></tr><tr><td width="5%">ves.work</td><td>the work done by the bias in one AV_STRIDE</td></tr></table></span><div class="tooltip" style="color:green">PRINT<div class="right">Print quantities to a file. <a href="https://www.plumed.org/doc-master/user-doc/html/_p_r_i_n_t.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">FMT<div class="right">the format that should be used to output real numbers<i></i></div></div>=%g <div class="tooltip">STRIDE<div class="right"> the frequency with which the quantities of interest should be output<i></i></div></div>=500   <div class="tooltip">FILE<div class="right">the name of the file on which to output these quantities<i></i></div></div>=Colvar.data <div class="tooltip">ARG<div class="right">the input for this action is the scalar output from one or more other actions<i></i></div></div>=<b name="data/sodium/plumed-ves.datcv">cv.*</b>,<b name="data/sodium/plumed-ves.datene">ene</b>,<b name="data/sodium/plumed-ves.datves">ves.bias</b>,<b name="data/sodium/plumed-ves.datves">ves.rct</b>
+<br/><div class="tooltip" style="color:green">ENDPLUMED<div class="right">Terminate plumed input. <a href="https://www.plumed.org/doc-master/user-doc/html/_e_n_d_p_l_u_m_e_d.html" style="color:green">More details</a><i></i></div></div><span style="color:blue">
+-- !!bash --
+--- Active shells ---
+awk -v n=1 -v trig=1 'BEGIN{printf "cv: DEBYE_STRUCTURE_FACTOR NOPBC ACTIVE_Q="}NR>10{der=$2-prev; if ($2>trig && der<0 && prev_der>0 && ++conta<=n) {printf val; if (conta<n) printf ","; else printf "\n"} prev=$2; prev_der=der; val=$1}' ../unb-bcc/DebyeSq.data
+</span></pre>
+{% endraw %}

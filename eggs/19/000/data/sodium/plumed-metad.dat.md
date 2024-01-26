@@ -1,0 +1,37 @@
+**Project ID:** [plumID:19.000]({{ '/' | absolute_url }}eggs/19/000/)  
+**Source:** sodium/plumed-metad.dat  
+**Originally used with PLUMED version:** 2.6-dev  
+**Stable:** [zipped raw stdout](plumed-metad.dat.plumed.stdout.txt.zip) - [zipped raw stderr](plumed-metad.dat.plumed.stderr.txt.zip) - [stderr](plumed-metad.dat.plumed.stderr)  
+**Master:** [zipped raw stdout](plumed-metad.dat.plumed_master.stdout.txt.zip) - [zipped raw stderr](plumed-metad.dat.plumed_master.stderr.txt.zip) - [stderr](plumed-metad.dat.plumed_master.stderr)  
+
+{% raw %}
+<div style="width: 100%; float:left">
+<div style="width: 90%; float:left" id="value_details_data/sodium/plumed-metad.dat"> Click on the labels of the actions for more information on what each action computes </div>
+<div style="width: 10%; float:left"><table><tr><td style="padding:1px"><a href="plumed-metad.dat.plumed.stderr"><img src="https://img.shields.io/badge/v2.9-passing-green.svg" alt="tested onv2.9" /></a></td></tr><tr><td style="padding:1px"><a href="plumed-metad.dat.plumed_master.stderr"><img src="https://img.shields.io/badge/master-failed-red.svg" alt="tested onmaster" /></a></td></tr><tr><td style="padding:1px"><img src="https://img.shields.io/badge/with-LOAD-yellow.svg" alt="tested on master" /></td></tr>
+</table></div></div>
+<pre style="width=97%;">
+<span style="color:blue">#SETTINGS NATOMS=250</span>
+<div class="tooltip" style="color:blue"># vim:ft=plumed<div class="right">Enables syntax highlighting for PLUMED files in vim. See <a href="https://www.plumed.org/doc-master/user-doc/html/_vim_syntax.html">here for more details. </a><i></i></div></div>
+<div class="tooltip" style="color:green">LOAD<div class="right">Loads a library, possibly defining new actions. <a href="https://www.plumed.org/doc-master/user-doc/html/_l_o_a_d.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">FILE<div class="right">file to be loaded<i></i></div></div>=DebyeStructureFactor.cpp
+<div class="tooltip" style="color:green">UNITS<div class="right">This command sets the internal units for the code. <a href="https://www.plumed.org/doc-master/user-doc/html/_u_n_i_t_s.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">LENGTH<div class="right">the units of lengths<i></i></div></div>=A
+<br/><b name="data/sodium/plumed-metad.datene" onclick='showPath("data/sodium/plumed-metad.dat","data/sodium/plumed-metad.datene")'>ene</b>: <div class="tooltip" style="color:green">ENERGY<div class="right">Calculate the total potential energy of the simulation box. <a href="https://www.plumed.org/doc-master/user-doc/html/_e_n_e_r_g_y.html" style="color:green">More details</a><i></i></div></div>
+<b name="data/sodium/plumed-metad.datcv" onclick='showPath("data/sodium/plumed-metad.dat","data/sodium/plumed-metad.datcv")'>cv</b>: <div class="tooltip" style="color:green">DEBYE_STRUCTURE_FACTOR<div class="right">This action is not part of PLUMED and was included by using a LOAD command <a href="https://www.plumed.org/doc-master/user-doc/html/_l_o_a_d.html" style="color:green">More details</a><i></i></div></div> CUTOFF=10.5 ACTIVE_Q=2.070595
+<br/><div class="tooltip" style="color:green">METAD<div class="right">Used to performed metadynamics on one or more collective variables. <a href="https://www.plumed.org/doc-master/user-doc/html/_m_e_t_a_d.html" style="color:green">More details</a><i></i></div></div> ...
+  <div class="tooltip">LABEL<div class="right">a label for the action so that its output can be referenced in the input to other actions<i></i></div></div>=<b name="data/sodium/plumed-metad.datmetad" onclick='showPath("data/sodium/plumed-metad.dat","data/sodium/plumed-metad.datmetad")'>metad</b>
+  <div class="tooltip">ARG<div class="right">the input for this action is the scalar output from one or more other actions<i></i></div></div>=<b name="data/sodium/plumed-metad.datcv">cv</b>
+  <div class="tooltip">FILE<div class="right"> a file in which the list of added hills is stored<i></i></div></div>=Hills.data
+  <div class="tooltip">TEMP<div class="right">the system temperature - this is only needed if you are doing well-tempered metadynamics<i></i></div></div>=350
+  <div class="tooltip">PACE<div class="right">the frequency for hill addition<i></i></div></div>=500
+  <div class="tooltip">SIGMA<div class="right">the widths of the Gaussian hills<i></i></div></div>=0.02
+  <div class="tooltip">HEIGHT<div class="right">the heights of the Gaussian hills<i></i></div></div>=10
+  <div class="tooltip">BIASFACTOR<div class="right">use well tempered metadynamics and use this bias factor<i></i></div></div>=20
+  <div class="tooltip">GRID_MIN<div class="right">the lower bounds for the grid<i></i></div></div>=1.3
+  <div class="tooltip">GRID_MAX<div class="right">the upper bounds for the grid<i></i></div></div>=2.8
+  <div class="tooltip">GRID_BIN<div class="right">the number of bins for the grid<i></i></div></div>=200
+  <div class="tooltip">CALC_RCT<div class="right"> calculate the c(t) reweighting factor and use that to obtain the normalized bias [rbias=bias-rct]<i></i></div></div>
+  <div class="tooltip">WALKERS_MPI<div class="right"> Switch on MPI version of multiple walkers - not compatible with WALKERS_* options other than WALKERS_DIR<i></i></div></div>
+... METAD
+<span style="display:none;" id="data/sodium/plumed-metad.datmetad">The METAD action with label <b>metad</b> calculates the following quantities:<table  align="center" frame="void" width="95%" cellpadding="5%"><tr><td width="5%"><b> Quantity </b>  </td><td><b> Description </b> </td></tr><tr><td width="5%">metad.bias</td><td>the instantaneous value of the bias potential</td></tr><tr><td width="5%">metad.rbias</td><td>the instantaneous value of the bias normalized using the c(t) reweighting factor [rbias=bias-rct]</td></tr><tr><td width="5%">metad.rct</td><td>the reweighting factor $c(t)$</td></tr></table></span><div class="tooltip" style="color:green">PRINT<div class="right">Print quantities to a file. <a href="https://www.plumed.org/doc-master/user-doc/html/_p_r_i_n_t.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">STRIDE<div class="right"> the frequency with which the quantities of interest should be output<i></i></div></div>=500  <div class="tooltip">FMT<div class="right">the format that should be used to output real numbers<i></i></div></div>=%g <div class="tooltip">FILE<div class="right">the name of the file on which to output these quantities<i></i></div></div>=Colvar.data <div class="tooltip">ARG<div class="right">the input for this action is the scalar output from one or more other actions<i></i></div></div>=<b name="data/sodium/plumed-metad.datcv">cv.*</b>,<b name="data/sodium/plumed-metad.datene">ene</b>,<b name="data/sodium/plumed-metad.datmetad">metad.bias</b>,<b name="data/sodium/plumed-metad.datmetad">metad.rct</b>
+<br/><div class="tooltip" style="color:green">ENDPLUMED<div class="right">Terminate plumed input. <a href="https://www.plumed.org/doc-master/user-doc/html/_e_n_d_p_l_u_m_e_d.html" style="color:green">More details</a><i></i></div></div><span style="color:blue">
+</span></pre>
+{% endraw %}

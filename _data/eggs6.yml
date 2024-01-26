@@ -1,0 +1,417 @@
+# file containing egg database.
+- id: '23.040'
+  name: 'Supramolecular capsules assembly dynamics'
+  shortname: 'Supramolecular ...'
+  category: chemistry
+  keywords: Self-assembly, H-bond capsules, resorcinarene, pyrogallolarene, metadynamics
+  shortkeywords: Self-assembly, H-bond cap...
+  contributor: Riccardo Capelli
+  doi: unpublished
+  path: eggs/23/040/
+  reference: 'unpublished'
+  ref_url: ''
+  ninputs: 6
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: FLUSH METAD DISTANCE DISTANCES POSITION GROUP WHOLEMOLECULES CENTER UNITS CUSTOM COM PRINT
+- id: '23.030'
+  name: 'Data Driven Classification of Ligand Unbinding Pathways'
+  shortname: 'Data Driven Cla...'
+  category: bio
+  keywords: OPES Explore, OPES Flooding, Benzene T4 Lysozyme, Ligand unbinding, Pathway classification, Kinetics, Residence time
+  shortkeywords: OPES Explore, OPES Floodi...
+  contributor: Dhiman Ray
+  doi: unpublished
+  path: eggs/23/030/
+  reference: 'unpublished'
+  ref_url: ''
+  ninputs: 6
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: MOLINFO OPES_METAD_EXPLORE DISTANCE POSITION FIT_TO_TEMPLATE COMMITTOR OPES_METAD CENTER CUSTOM PRINT UPPER_WALLS FLUSH ENDPLUMED GROUP WHOLEMOLECULES ENERGY UNITS WRAPAROUND TORSION MATHEVAL LOWER_WALLS COORDINATION BIASVALUE COM
+- id: '23.020'
+  name: 'FEP simulations of ATOX1 homodimer'
+  shortname: 'FEP simulations...'
+  category: chemistry
+  keywords: parallel bias metadynamics, FEP, free-energy of metal ion dissociation
+  shortkeywords: parallel bias metadynamic...
+  contributor: Adriana Pietropaolo
+  doi: 10.1016/j.ica.2023.121452
+  path: eggs/23/020/
+  reference: 'M. Fortino, G. Schifino, D. Vitone, F. Arnesano, A. Pietropaolo, The stepwise dissociation of the Zn(II)-bound Atox1 homodimer and its energetic asymmetry. Inorganica Chimica Acta. 550, 121452 (2023)'
+  ref_url: 'http://dx.doi.org/10.1016/j.ica.2023.121452'
+  ninputs: 1
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: MATHEVAL DISTANCE BIASVALUE PBMETAD WHOLEMOLECULES CONSTANT PRINT ANGLE
+- id: '23.010'
+  name: 'An Efficient Metadynamics-Based Protocol To Model the Binding Affinity and the Transition State Ensemble of G‑Protein-Coupled Receptor Ligands'
+  shortname: 'An Efficient Me...'
+  category: bio
+  keywords: GPCR, binding free energy, free energy surface
+  shortkeywords: GPCR, binding free energy...
+  contributor: Timothy Clark
+  doi: 10.1021/acs.jcim.6b00772
+  path: eggs/23/010/
+  reference: 'N. Saleh, P. Ibrahim, G. Saladino, F. L. Gervasio, T. Clark, An Efficient Metadynamics-Based Protocol To Model the Binding Affinity and the Transition State Ensemble of G-Protein-Coupled Receptor Ligands. Journal of Chemical Information and Modeling. 57, 1210–1217 (2017)'
+  ref_url: 'http://dx.doi.org/10.1021/acs.jcim.6b00772'
+  ninputs: 1
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: MATHEVAL METAD DISTANCE BIASVALUE LOWER_WALLS WHOLEMOLECULES CONSTANT PRINT UPPER_WALLS
+- id: '23.000'
+  name: 'Atomistic simulations of RNA tetraloop folding via PTWTE-WTM'
+  shortname: 'Atomistic simul...'
+  category: bio
+  keywords: parallel tempering, well-tempered metadynamics, well-tempered ensemble, RNA, Tetraloop, Folding
+  shortkeywords: parallel tempering, well-...
+  contributor: Gül Zerze
+  doi: 10.1021/acs.jpcb.1c08038
+  path: eggs/23/000/
+  reference: 'G. H. Zerze, P. M. Piaggi, P. G. Debenedetti, A Computational Study of RNA Tetraloop Thermodynamics, Including Misfolded States. The Journal of Physical Chemistry B. 125, 13685–13695 (2021)'
+  ref_url: 'http://dx.doi.org/10.1021/acs.jpcb.1c08038'
+  ninputs: 14
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: METAD WHOLEMOLECULES LOWER_WALLS CONTACTMAP ENERGY PRINT UPPER_WALLS
+- id: '22.036'
+  name: 'Well-tempered MetaDynamics with Hamiltonian Replica Exchange on Holliday Junction'
+  shortname: 'Well-tempered M...'
+  category: bio
+  keywords: Well-tempered MetaDynamics with Hamiltonian Replica Exchange
+  shortkeywords: Well-tempered MetaDynamic...
+  contributor: Miroslav Krepl
+  doi: 10.1021/acs.jcim.3c00358
+  path: eggs/22/036/
+  reference: 'Z. Zhang, J. Šponer, G. Bussi, V. Mlýnský, P. Šulc, C. R. Simmons, N. Stephanopoulos, M. Krepl, Atomistic Picture of Opening–Closing Dynamics of DNA Holliday Junction Obtained by Molecular Simulations. Journal of Chemical Information and Modeling. 63, 2794–2809 (2023)'
+  ref_url: 'http://dx.doi.org/10.1021/acs.jcim.3c00358'
+  ninputs: 1
+  nfail: 1
+  nfailm: 1
+  preprint: 0
+  actions: FLUSH MOLINFO METAD UPPER_WALLS COMBINE GROUP COORDINATION BIASVALUE CUSTOM LOAD PRINT GHBFIX
+- id: '22.026'
+  name: 'Designing Sequence-Defined Peptoids for Fibrillar Self-Assembly and Silicification'
+  shortname: 'Designing Seque...'
+  category: materials
+  keywords: Peptoid, silica
+  shortkeywords: Peptoid, silica
+  contributor: Jim Pfaendtner
+  doi: 10.1016/j.jcis.2022.11.136
+  path: eggs/22/026/
+  reference: 'W. Yang, Y. Zhou, B. Jin, X. Qi, B. Cai, Q. Yin, J. Pfaendtner, J. J. De Yoreo, C.-L. Chen, Designing sequence-defined peptoids for fibrillar self-assembly and silicification. Journal of Colloid and Interface Science. 634, 450–459 (2023)'
+  ref_url: 'http://dx.doi.org/10.1016/j.jcis.2022.11.136'
+  ninputs: 4
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: MOLINFO DISTANCE PBMETAD COM PRINT GYRATION UPPER_WALLS
+- id: '22.016'
+  name: 'Homogeneous ice nucleation in an ab initio machine learning model of water'
+  shortname: 'Homogeneous ice...'
+  category: chemistry
+  keywords: ice, water, nucleation, seeding, environment similarity, interfacial free energy, interfaces
+  shortkeywords: ice, water, nucleation, s...
+  contributor: Pablo Piaggi
+  doi: 10.1073/pnas.2207294119
+  path: eggs/22/016/
+  reference: 'P. M. Piaggi, J. Weis, A. Z. Panagiotopoulos, P. G. Debenedetti, R. Car, Homogeneous ice nucleation in an ab initio machine-learning model of water. Proceedings of the National Academy of Sciences. 119 (2022)'
+  ref_url: 'http://dx.doi.org/10.1073/pnas.2207294119'
+  ninputs: 14
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: ENVIRONMENTSIMILARITY AROUND RESTART HISTOGRAM DUMPGRID ENERGY OPES_METAD VOLUME CUSTOM PRINT UPPER_WALLS
+- id: '22.005'
+  name: 'Collective Variable for Metadynamics Derived from AlphaFold Output'
+  shortname: 'Collective Vari...'
+  category: bio
+  keywords: AlphaFold, protein folding, protein structure prediction, metadynamics, deep learning, free energy simulation, collective variable
+  shortkeywords: AlphaFold, protein foldin...
+  contributor: Vojtech Spiwok
+  doi: 10.3389/fmolb.2022.878133
+  path: eggs/22/005/
+  reference: 'V. Spiwok, M. Kurečka, A. Křenek, Collective Variable for Metadynamics Derived From AlphaFold Output. Frontiers in Molecular Biosciences. 9 (2022)'
+  ref_url: 'http://dx.doi.org/10.3389/fmolb.2022.878133'
+  ninputs: 20
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: METAD AF_DISTPROB WHOLEMOLECULES LOAD PRINT
+- id: '21.048'
+  name: 'Enhancing ligand exploration within a channel pore and fenestrations using metadynamics'
+  shortname: 'Enhancing ligan...'
+  category: bio
+  keywords: well-tempered metadynamics, protein-ligand enhanced sampling, sodium channel, Nav, small molecule drug
+  shortkeywords: well-tempered metadynamic...
+  contributor: Elaine Tao
+  doi: 10.1016/j.bpj.2021.12.025
+  path: eggs/21/048/
+  reference: 'E. Tao, B. Corry, Characterizing fenestration size in sodium channel subtypes and their accessibility to inhibitors. Biophysical Journal. 121, 193–206 (2022)'
+  ref_url: 'http://dx.doi.org/10.1016/j.bpj.2021.12.025'
+  ninputs: 9
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: TORSION METAD DISTANCE LOWER_WALLS UNITS CUSTOM COM PRINT UPPER_WALLS
+- id: '21.038'
+  name: 'Towards automated sampling of polymorph nucleation and free energies with SGOOP and metadynamics'
+  shortname: 'Towards automat...'
+  category: materials
+  keywords: metadynamics, SGOOP, nucleation, urea
+  shortkeywords: metadynamics, SGOOP, nucl...
+  contributor: Ziyue Zou
+  doi: 10.1021/acs.jpcb.1c07595
+  path: eggs/21/038/
+  reference: 'Z. Zou, S.-T. Tsai, P. Tiwary, Toward Automated Sampling of Polymorph Nucleation and Free Energies with the SGOOP and Metadynamics. The Journal of Physical Chemistry B. 125, 13049–13056 (2021)'
+  ref_url: 'http://dx.doi.org/10.1021/acs.jpcb.1c07595'
+  ninputs: 3
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: METAD COORDINATIONNUMBER MANY_ANGLE GROUP COMBINE ENERGY PAIR_ORIENTATIONAL_ENTROPY CENTER VOLUME LOAD PRINT INCLUDE
+- id: '21.028'
+  name: 'From Enhanced Sampling to Reaction Profiles'
+  shortname: 'From Enhanced S...'
+  category: methods
+  keywords: collective variables, multi-state, machine learning, Deep-TDA
+  shortkeywords: collective variables, mul...
+  contributor: Enrico Trizio
+  doi: 10.1021/acs.jpclett.1c02317
+  path: eggs/21/028/
+  reference: 'E. Trizio, M. Parrinello, From Enhanced Sampling to Reaction Profiles. The Journal of Physical Chemistry Letters. 12, 8621–8626 (2021)'
+  ref_url: 'http://dx.doi.org/10.1021/acs.jpclett.1c02317'
+  ninputs: 13
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: DISTANCE LOAD DISTANCES FIT_TO_TEMPLATE OPES_METAD CENTER PRINT UPPER_WALLS PYTORCH_MODEL ENDPLUMED WHOLEMOLECULES GROUP FIXEDATOM UNITS CONTACTS ANGLE TORSION MATHEVAL LOWER_WALLS COORDINATION
+- id: '21.018'
+  name: 'Localized Volume-based Metadynamics'
+  shortname: 'Localized Volum...'
+  category: bio
+  keywords: LV-MetaD, Volume-based MetaD, Metadynamics, Ligand binding, Induced-fit effects, Binding pose identification
+  shortkeywords: LV-MetaD, Volume-based Me...
+  contributor: Riccardo Capelli
+  doi: 10.1021/acs.jctc.1c00649
+  path: eggs/21/018/
+  reference: 'Q. Zhao, R. Capelli, P. Carloni, B. Lüscher, J. Li, G. Rossetti, Enhanced Sampling Approach to the Induced-Fit Docking Problem in Protein–Ligand Binding: The Case of Mono-ADP-Ribosylation Hydrolase Inhibitors. Journal of Chemical Theory and Computation. 17, 7899–7911 (2021)'
+  ref_url: 'http://dx.doi.org/10.1021/acs.jctc.1c00649'
+  ninputs: 8
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: DISTANCE POSITION DUMPGRID REWEIGHT_METAD CONVERT_TO_FES METAD PRINT UPPER_WALLS FLUSH ENDPLUMED HISTOGRAM GROUP WHOLEMOLECULES FIXEDATOM MATHEVAL RMSD COORDINATION READ COM
+- id: '21.008'
+  name: 'Multi-replica biased sampling for photoisomerization processes in conjugated polymers'
+  shortname: 'Multi-replica b...'
+  category: methods
+  keywords: metadynamics, FEP, replica-exchange
+  shortkeywords: metadynamics, FEP, replic...
+  contributor: Adriana Pietropaolo
+  doi: 10.1063/5.0045944
+  path: eggs/21/008/
+  reference: 'M. Fortino, C. Cozza, M. Bonomi, A. Pietropaolo, Multi-replica biased sampling for photoswitchable π-conjugated polymers. The Journal of Chemical Physics. 154 (2021)'
+  ref_url: 'http://dx.doi.org/10.1063/5.0045944'
+  ninputs: 20
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: TORSION MATHEVAL PBMETAD BIASVALUE RESTART WHOLEMOLECULES CONSTANT PRINT
+- id: '20.033'
+  name: 'COVID-19 Spike protein opening transition mechanism'
+  shortname: 'COVID-19 Spike ...'
+  category: bio
+  keywords: EMMI, CryoEM, COVID-19, Spike, Metainference
+  shortkeywords: EMMI, CryoEM, COVID-19, S...
+  contributor: Faidon Brotzakis
+  doi: 10.1039/D1SC00244A
+  path: eggs/20/033/
+  reference: 'Z. F. Brotzakis, T. Löhr, M. Vendruscolo, Determination of intermediate state structures in the opening pathway of SARS-CoV-2 spike using cryo-electron microscopy. Chemical Science. 12, 9168–9175 (2021)'
+  ref_url: 'http://dx.doi.org/10.1039/D1SC00244A'
+  ninputs: 2
+  nfail: 1
+  nfailm: 1
+  preprint: 0
+  actions: MOLINFO RMSD DISTANCES HISTOGRAM GROUP WHOLEMOLECULES DUMPGRID EMMI READ BIASVALUE CONVERT_TO_FES PRINT
+- id: '20.023'
+  name: 'metadynminer and metadynminer3d'
+  shortname: 'metadynminer an...'
+  category: methods
+  keywords: metadynamics, visualization, R
+  shortkeywords: metadynamics, visualizati...
+  contributor: Vojtech Spiwok
+  doi: 10.32614/RJ-2022-057
+  path: eggs/20/023/
+  reference: 'D. Trapl, V. Spiwok, Analysis of the Results of Metadynamics Simulations by metadynminer and metadynminer3d. The R Journal. 14, 46–58 (2022)'
+  ref_url: 'http://dx.doi.org/10.32614/RJ-2022-057'
+  ninputs: 3
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: TORSION METAD PRINT
+- id: '20.013'
+  name: 'Improving accuracy of biased Alchemistic simulations'
+  shortname: 'Improving accur...'
+  category: methods
+  keywords: flying Gaussian method, Alchemistic simulations, thermodynamic integration, reweighting
+  shortkeywords: flying Gaussian method, A...
+  contributor: Vojtech Spiwok
+  doi: 10.1016/j.cplett.2020.138012
+  path: eggs/20/013/
+  reference: 'D. Trapl, C. C. del Río, P. Kříž, V. Spiwok, Prediction of pKa in a system with high orthogonal barriers: Alchemical flying Gaussian method. Chemical Physics Letters. 760, 138012 (2020)'
+  ref_url: 'http://dx.doi.org/10.1016/j.cplett.2020.138012'
+  ninputs: 4
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: TORSION METAD PRINT
+- id: '20.003'
+  name: 'Enhanced sampling of transition states'
+  shortname: 'Enhanced sampli...'
+  category: methods
+  keywords: Variationally Enhanced Sampling, Target distribution, Transition state, Enhanced Sampling, Nucleation, chemical reaction
+  shortkeywords: Variationally Enhanced Sa...
+  contributor: Jayashrita Debnath
+  doi: 10.1021/acs.jctc.8b01283
+  path: eggs/20/003/
+  reference: 'J. Debnath, M. Invernizzi, M. Parrinello, Enhanced Sampling of Transition States. Journal of Chemical Theory and Computation. 15, 2454–2459 (2019)'
+  ref_url: 'http://dx.doi.org/10.1021/acs.jctc.8b01283'
+  ninputs: 1
+  nfail: 1
+  nfailm: 1
+  preprint: 0
+  actions: BF_LEGENDRE OPT_AVERAGED_SGD POSITION ENERGY VES_LINEAR_EXPANSION TD_TS_TARGET UNITS LOAD PRINT
+- id: '19.077'
+  name: 'Molecular Recognition and Specificity of Biomolecules to Titanium Dioxide from MD Simulations'
+  shortname: 'Molecular Recog...'
+  category: materials
+  keywords: metadynamics, peptide-surface binding
+  shortkeywords: metadynamics, peptide-sur...
+  contributor: Jim Pfaendtner
+  doi: 10.1038/s41524-020-0288-7
+  path: eggs/19/077/
+  reference: 'J. Sampath, A. Kullman, R. Gebhart, G. Drobny, J. Pfaendtner, Molecular recognition and specificity of biomolecules to titanium dioxide from molecular dynamics simulations. npj Computational Materials. 6 (2020)'
+  ref_url: 'http://dx.doi.org/10.1038/s41524-020-0288-7'
+  ninputs: 16
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: MOLINFO METAD DISTANCE ENERGY COM PRINT GYRATION UPPER_WALLS
+- id: '19.067'
+  name: 'Kinetics of Huperzine A Dissociation from Acetylcholinesterase via Multiple Unbinding Pathways'
+  shortname: 'Kinetics of Hup...'
+  category: bio
+  keywords: metadynamics, ligand unbinding
+  shortkeywords: metadynamics, ligand unbi...
+  contributor: Jakub Rydzewski
+  doi: 10.1021/acs.jctc.8b00173
+  path: eggs/19/067/
+  reference: 'J. Rydzewski, R. Jakubowski, W. Nowak, H. Grubmüller, Kinetics of Huperzine A Dissociation from Acetylcholinesterase via Multiple Unbinding Pathways. Journal of Chemical Theory and Computation. 14, 2843–2851 (2018)'
+  ref_url: 'http://dx.doi.org/10.1021/acs.jctc.8b00173'
+  ninputs: 4
+  nfail: 2
+  nfailm: 2
+  preprint: 0
+  actions: PATHMSD METAD RESTART LOWER_WALLS UNITS PRINT UPPER_WALLS
+- id: '19.057'
+  name: 'SAXS ensembles using Martini-Beads multi-scale SAXS'
+  shortname: 'SAXS ensembles ...'
+  category: methods
+  keywords: metainference, SAXS, martini, ensemble determination, metadynamics, protein dynamics
+  shortkeywords: metainference, SAXS, mart...
+  contributor: Cristina Paissoni
+  doi: 10.1021/acs.jctc.9b01181
+  path: eggs/19/057/
+  reference: 'C. Paissoni, A. Jussupow, C. Camilloni, Determination of Protein Structural Ensembles by Hybrid-Resolution SAXS Restrained Molecular Dynamics. Journal of Chemical Theory and Computation. 16, 2825–2834 (2020)'
+  ref_url: 'http://dx.doi.org/10.1021/acs.jctc.9b01181'
+  ninputs: 1
+  nfail: 1
+  nfailm: 1
+  preprint: 0
+  actions: MOLINFO ENDPLUMED MATHEVAL PBMETAD SAXS ENSEMBLE STATS GROUP WHOLEMOLECULES COORDINATION ALPHABETA COMBINE ANGLE CENTER BIASVALUE PRINT INCLUDE
+- id: '19.047'
+  name: 'Close Structure'
+  shortname: 'Close Structure'
+  category: methods
+  keywords: metadynamics, RMSD, path collective variables, property map
+  shortkeywords: metadynamics, RMSD, path ...
+  contributor: Vojtech Spiwok
+  doi: 10.1063/1.4978296
+  path: eggs/19/047/
+  reference: 'J. Pazúriková, A. Křenek, V. Spiwok, M. Šimková, Reducing the number of mean-square deviation calculations with floating close structure in metadynamics. The Journal of Chemical Physics. 146 (2017)'
+  ref_url: 'http://dx.doi.org/10.1063/1.4978296'
+  ninputs: 4
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: METAD PROPERTYMAP PRINT WHOLEMOLECULES
+- id: '19.037'
+  name: 'Scission free energy of organic dyes'
+  shortname: 'Scission free e...'
+  category: chemistry
+  keywords: metadynamics, multiple walkers, matheval/lepton
+  shortkeywords: metadynamics, multiple wa...
+  contributor: Paolo Raiteri
+  doi: 10.1021/jacs.6b08267
+  path: eggs/19/037/
+  reference: 'R. Drori, C. Li, C. Hu, P. Raiteri, A. L. Rohl, M. D. Ward, B. Kahr, A Supramolecular Ice Growth Inhibitor. Journal of the American Chemical Society. 138, 13396–13401 (2016)'
+  ref_url: 'http://dx.doi.org/10.1021/jacs.6b08267'
+  ninputs: 2
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: FLUSH MATHEVAL METAD DISTANCE RESTART UNITS PRINT UPPER_WALLS
+- id: '19.027'
+  name: 'Multithermal-multibaric simulations using VES'
+  shortname: 'Multithermal-mu...'
+  category: methods
+  keywords: ves, Wang Landau, multicanonical, liquid sodium, density anomaly
+  shortkeywords: ves, Wang Landau, multica...
+  contributor: Pablo Piaggi
+  doi: 10.1103/PhysRevLett.122.050601
+  path: eggs/19/027/
+  reference: 'P. M. Piaggi, M. Parrinello, Multithermal-Multibaric Molecular Simulations from a Variational Principle. Physical Review Letters. 122 (2019)'
+  ref_url: 'http://dx.doi.org/10.1103/PhysRevLett.122.050601'
+  ninputs: 14
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: BF_LEGENDRE OPT_AVERAGED_SGD RESTART AVERAGE COMBINE REWEIGHT_BIAS HISTOGRAM DUMPGRID READ ENERGY TD_MULTICANONICAL VES_LINEAR_EXPANSION UNITS CONVERT_TO_FES OPT_DUMMY REWEIGHT_TEMP_PRESS PRINT
+- id: '19.017'
+  name: 'Ligand binding pathways exploration'
+  shortname: 'Ligand binding ...'
+  category: bio
+  keywords: metadynamics, ligand binding
+  shortkeywords: metadynamics, ligand bind...
+  contributor: Riccardo Capelli
+  doi: 10.1021/acs.jpclett.9b01183
+  path: eggs/19/017/
+  reference: 'R. Capelli, P. Carloni, M. Parrinello, Exhaustive Search of Ligand Binding Pathways via Volume-Based Metadynamics. The Journal of Physical Chemistry Letters. 10, 3495–3499 (2019)'
+  ref_url: 'http://dx.doi.org/10.1021/acs.jpclett.9b01183'
+  ninputs: 6
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: FLUSH WRAPAROUND ENDPLUMED MATHEVAL METAD POSITION FIT_TO_TEMPLATE GROUP WHOLEMOLECULES COORDINATION HISTOGRAM READ DUMPGRID REWEIGHT_METAD CONVERT_TO_FES COM PRINT UPPER_WALLS
+- id: '19.007'
+  name: 'EMMI Microtubules'
+  shortname: 'EMMI Microtubul...'
+  category: bio
+  keywords: metainference, cryo-EM
+  shortkeywords: metainference, cryo-EM
+  contributor: Max Bonomi
+  doi: 10.1073/pnas.1900441116
+  path: eggs/19/007/
+  reference: 'L. Eshun-Wilson, R. Zhang, D. Portran, M. V. Nachury, D. B. Toso, T. Löhr, M. Vendruscolo, M. Bonomi, J. S. Fraser, E. Nogales, Effects of α-tubulin acetylation on microtubule structure and stability. Proceedings of the National Academy of Sciences. 116, 10366–10371 (2019)'
+  ref_url: 'http://dx.doi.org/10.1073/pnas.1900441116'
+  ninputs: 1
+  nfail: 0
+  nfailm: 0
+  preprint: 0
+  actions: MOLINFO WHOLEMOLECULES GROUP EMMI BIASVALUE PRINT

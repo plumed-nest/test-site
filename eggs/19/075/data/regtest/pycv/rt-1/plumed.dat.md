@@ -1,0 +1,18 @@
+**Project ID:** [plumID:19.075]({{ '/' | absolute_url }}eggs/19/075/)  
+**Source:** regtest/pycv/rt-1/plumed.dat  
+**Originally used with PLUMED version:** 2.5.2-mod  
+**Stable:** [zipped raw stdout](plumed.dat.plumed.stdout.txt.zip) - [zipped raw stderr](plumed.dat.plumed.stderr.txt.zip) - [stderr](plumed.dat.plumed.stderr)  
+**Master:** [zipped raw stdout](plumed.dat.plumed_master.stdout.txt.zip) - [zipped raw stderr](plumed.dat.plumed_master.stderr.txt.zip) - [stderr](plumed.dat.plumed_master.stderr)  
+
+{% raw %}
+<div style="width: 100%; float:left">
+<div style="width: 90%; float:left" id="value_details_data/regtest/pycv/rt-1/plumed.dat"> Click on the labels of the actions for more information on what each action computes </div>
+<div style="width: 10%; float:left"><table><tr><td style="padding:1px"><a href="plumed.dat.plumed.stderr"><img src="https://img.shields.io/badge/v2.9-failed-red.svg" alt="tested onv2.9" /></a></td></tr><tr><td style="padding:1px"><a href="plumed.dat.plumed_master.stderr"><img src="https://img.shields.io/badge/master-failed-red.svg" alt="tested onmaster" /></a></td></tr><tr><td style="padding:1px"><img src="https://img.shields.io/badge/with-LOAD-yellow.svg" alt="tested on master" /></td></tr>
+</table></div></div>
+<pre style="width=97%;">
+<span style="color:blue"># LOAD FILE=PythonCV.dylib</span>
+<br/><b name="data/regtest/pycv/rt-1/plumed.datcv1" onclick='showPath("data/regtest/pycv/rt-1/plumed.dat","data/regtest/pycv/rt-1/plumed.datcv1")'>cv1</b>: <div class="tooltip" style="color:green">PYTHONCV<div class="right">This action is not part of PLUMED and was included by using a LOAD command <a href="https://www.plumed.org/doc-master/user-doc/html/_l_o_a_d.html" style="color:green">More details</a><i></i></div></div> ATOMS=1,4 IMPORT=pycv FUNCTION=<b name="data/regtest/pycv/rt-1/plumed.datcv1">cv1</b>
+<br/><b name="data/regtest/pycv/rt-1/plumed.datcv1n" onclick='showPath("data/regtest/pycv/rt-1/plumed.dat","data/regtest/pycv/rt-1/plumed.datcv1n")'>cv1n</b>: <div class="tooltip" style="color:green">DISTANCE<div class="right">Calculate the distance between a pair of atoms. <a href="https://www.plumed.org/doc-master/user-doc/html/_d_i_s_t_a_n_c_e.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">ATOMS<div class="right">the pair of atom that we are calculating the distance between<i></i></div></div>=1,4
+<br/><span style="display:none;" id="data/regtest/pycv/rt-1/plumed.datcv1n">The DISTANCE action with label <b>cv1n</b> calculates a scalar quantity</span><div class="tooltip" style="color:green">PRINT<div class="right">Print quantities to a file. <a href="https://www.plumed.org/doc-master/user-doc/html/_p_r_i_n_t.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">FILE<div class="right">the name of the file on which to output these quantities<i></i></div></div>=colvar.out <div class="tooltip">ARG<div class="right">the input for this action is the scalar output from one or more other actions<i></i></div></div>
+</pre>
+{% endraw %}
