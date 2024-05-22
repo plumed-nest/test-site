@@ -1,0 +1,40 @@
+**Project ID:** [plumID:19.060]({{ '/' | absolute_url }}eggs/19/060/)  
+**Source:** 1_wolfe_quapp_potential/single_replica/inputs/plumed.dat  
+**Originally used with PLUMED version:** 2.5  
+**Stable:** [zipped raw stdout](plumed.dat.plumed.stdout.txt.zip) - [zipped raw stderr](plumed.dat.plumed.stderr.txt.zip) - [stderr](plumed.dat.plumed.stderr)  
+**Master:** [zipped raw stdout](plumed.dat.plumed_master.stdout.txt.zip) - [zipped raw stderr](plumed.dat.plumed_master.stderr.txt.zip) - [stderr](plumed.dat.plumed_master.stderr)  
+
+{% raw %}
+<div style="width: 100%; float:left">
+<div style="width: 90%; float:left" id="value_details_data/1_wolfe_quapp_potential/single_replica/inputs/plumed.dat"> Click on the labels of the actions for more information on what each action computes </div>
+<div style="width: 10%; float:left"><table><tr><td style="padding:1px"><a href="plumed.dat.plumed.stderr"><img src="https://img.shields.io/badge/v2.9-passing-green.svg" alt="tested onv2.9" /></a></td></tr><tr><td style="padding:1px"><a href="plumed.dat.plumed_master.stderr"><img src="https://img.shields.io/badge/master-failed-red.svg" alt="tested onmaster" /></a></td></tr><tr><td style="padding:1px"><img src="https://img.shields.io/badge/with-LOAD-yellow.svg" alt="tested on master" /></td></tr>
+</table></div></div>
+<pre style="width=97%;">
+<div class="tooltip" style="color:blue"># vim:ft=plumed<div class="right">Enables syntax highlighting for PLUMED files in vim. See <a href="https://www.plumed.org/doc-master/user-doc/html/_vim_syntax.html">here for more details. </a><i></i></div></div>
+<div class="tooltip" style="color:green">UNITS<div class="right">This command sets the internal units for the code. <a href="https://www.plumed.org/doc-master/user-doc/html/_u_n_i_t_s.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">NATURAL<div class="right"> use natural units<i></i></div></div>
+<br/><span style="display:none;" id="data/1_wolfe_quapp_potential/single_replica/inputs/plumed.dat">The UNITS action with label <b></b> calculates something</span><div class="tooltip" style="color:green">LOAD<div class="right">Loads a library, possibly defining new actions. <a href="https://www.plumed.org/doc-master/user-doc/html/_l_o_a_d.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">FILE<div class="right">file to be loaded<i></i></div></div>=<b name="data/1_wolfe_quapp_potential/single_replica/inputs/plumed.dat">../../../0_code/NeuralNetworkVes.cpp</b>
+<br/><b name="data/1_wolfe_quapp_potential/single_replica/inputs/plumed.datp" onclick='showPath("data/1_wolfe_quapp_potential/single_replica/inputs/plumed.dat","data/1_wolfe_quapp_potential/single_replica/inputs/plumed.datp","data/1_wolfe_quapp_potential/single_replica/inputs/plumed.datp","brown")'>p</b>: <div class="tooltip" style="color:green">POSITION<div class="right">Calculate the components of the position of an atom. <a href="https://www.plumed.org/doc-master/user-doc/html/_p_o_s_i_t_i_o_n.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">ATOM<div class="right">the atom number<i></i></div></div>=1
+<span style="display:none;" id="data/1_wolfe_quapp_potential/single_replica/inputs/plumed.datp">The POSITION action with label <b>p</b> calculates the following quantities:<table  align="center" frame="void" width="95%" cellpadding="5%"><tr><td width="5%"><b> Quantity </b>  </td><td><b> Description </b> </td></tr><tr><td width="5%">p.x</td><td>the x-component of the atom position</td></tr><tr><td width="5%">p.y</td><td>the y-component of the atom position</td></tr><tr><td width="5%">p.z</td><td>the z-component of the atom position</td></tr></table></span><b name="data/1_wolfe_quapp_potential/single_replica/inputs/plumed.datene" onclick='showPath("data/1_wolfe_quapp_potential/single_replica/inputs/plumed.dat","data/1_wolfe_quapp_potential/single_replica/inputs/plumed.datene","data/1_wolfe_quapp_potential/single_replica/inputs/plumed.datene","brown")'>ene</b>: <div class="tooltip" style="color:green">ENERGY<div class="right">Calculate the total potential energy of the simulation box. <a href="https://www.plumed.org/doc-master/user-doc/html/_e_n_e_r_g_y.html" style="color:green">More details</a><i></i></div></div>
+<br/><span style="color:blue" class="comment"># nn bias</span>
+<span style="display:none;" id="data/1_wolfe_quapp_potential/single_replica/inputs/plumed.datene">The ENERGY action with label <b>ene</b> calculates something</span><div class="tooltip" style="color:green">NN_VES<div class="right">This action is not part of PLUMED and was included by using a LOAD command <a href="https://www.plumed.org/doc-master/user-doc/html/_l_o_a_d.html" style="color:green">More details</a><i></i></div></div> ...
+LABEL=<b name="data/1_wolfe_quapp_potential/single_replica/inputs/plumed.datnn" onclick='showPath("data/1_wolfe_quapp_potential/single_replica/inputs/plumed.dat","data/1_wolfe_quapp_potential/single_replica/inputs/plumed.datnn","data/1_wolfe_quapp_potential/single_replica/inputs/plumed.datnn","brown")'>nn</b>
+ARG=<b name="data/1_wolfe_quapp_potential/single_replica/inputs/plumed.datp">p.x</b>
+NODES=48,24,12 
+OPTIM=ADAM
+ACTIVATION=RELU
+GRID_MIN=-3 
+GRID_MAX=3
+GRID_BIN=50 
+TEMP=1
+AVE_STRIDE=500 
+PRINT_STRIDE=1000 
+TARGET_STRIDE=1
+GAMMA=10
+LRATE=0.001
+TAU_KL=50000
+DECAY=5000
+ADAPTIVE_DECAY=0.5
+... NN_VES
+<br/><div class="tooltip" style="color:green">PRINT<div class="right">Print quantities to a file. <a href="https://www.plumed.org/doc-master/user-doc/html/_p_r_i_n_t.html" style="color:green">More details</a><i></i></div></div> <div class="tooltip">STRIDE<div class="right"> the frequency with which the quantities of interest should be output<i></i></div></div>=500 <div class="tooltip">ARG<div class="right">the input for this action is the scalar output from one or more other actions<i></i></div></div> <div class="tooltip">FILE<div class="right">the name of the file on which to output these quantities<i></i></div></div>=COLVAR <div class="tooltip">FMT<div class="right">the format that should be used to output real numbers<i></i></div></div>=%10.8f
+</pre>
+{% endraw %}
