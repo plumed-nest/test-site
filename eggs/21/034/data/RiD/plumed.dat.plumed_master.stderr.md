@@ -1,0 +1,29 @@
+**Project ID:** [plumID:21.034]({{ '/' | absolute_url }}eggs/21/034/)  
+Stderr for source:  RiD/plumed.dat   
+Download: [zipped raw stdout](plumed.dat.plumed_master.stdout.txt.zip) - [zipped raw stderr](plumed.dat.plumed_master.stderr.txt.zip) 
+{% raw %}
+<pre>
+#! Only the first 1000 rows of the error file are shown below
+#! To inspect the full error file, please download the zipped raw stderr file above
+terminate called after throwing an instance of 'PLMD::Plumed::ExceptionError'
+what():
+(core/RegisterBase.h:211) const Content& PLMD::RegisterBase<Content>::get(const std::vector<void*>&, const string&) const [with Content = PLMD::ActionRegisterPointers; std::string = std::__cxx11::basic_string<char>]
++++ assertion failed: m.count(key)>0
+[fv-az841-65:72023] *** Process received signal ***
+[fv-az841-65:72023] Signal: Aborted (6)
+[fv-az841-65:72023] Signal code:  (-6)
+[fv-az841-65:72023] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7fd5f1e42520]
+[fv-az841-65:72023] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7fd5f1e969fc]
+[fv-az841-65:72023] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7fd5f1e42476]
+[fv-az841-65:72023] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7fd5f1e287f3]
+[fv-az841-65:72023] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7fd5f22a2b9e]
+[fv-az841-65:72023] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7fd5f22ae20c]
+[fv-az841-65:72023] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7fd5f22ae277]
+[fv-az841-65:72023] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(__cxa_rethrow+0x4b)[0x7fd5f22ae52b]
+[fv-az841-65:72023] [ 8] plumed_master(+0x14274)[0x56232f98a274]
+[fv-az841-65:72023] [ 9] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7fd5f1e29d90]
+[fv-az841-65:72023] [10] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7fd5f1e29e40]
+[fv-az841-65:72023] [11] plumed_master(+0x14ed5)[0x56232f98aed5]
+[fv-az841-65:72023] *** End of error message ***
+</pre>
+{% endraw %}
