@@ -1,0 +1,320 @@
+- name:        Luigi Bonati
+  affiliation: Istituto Italiano di Tecnologia
+  city:        Genova
+  country:     Italy
+- name:        Kristof Bal
+  affiliation: Janssen Pharmaceutical Companies of Johnson & Johnson
+  city:        Beerse
+  country:     Belgium
+- name:        Federico Ballabio
+  affiliation: University of Milan
+  city:        Milano
+  country:     Italy
+- name:        Pavel Banáš
+  affiliation: Palacky University
+  city:        Olomouc
+  country:     Czech Republic 
+- name:        Alessandro Barducci
+  affiliation: Centre de Biochimie Structurale de Montpellier
+  city:        Montpellier
+  country:     France
+- name:        Mattia Bernetti
+  affiliation: International School for Advanced Studies
+  city:        Trieste
+  country:     Italy
+- name:        Peter G. Bolhuis
+  affiliation: University of Amsterdam
+  city:        Amsterdam
+  country:     The Netherlands
+- name:        Max Bonomi 
+  affiliation: Institut Pasteur - CNRS 
+  city:        Paris
+  country:     France
+- name:        Sandro Bottaro
+  affiliation: Italian Institute of Technology
+  city:        Genova
+  country:     Italy
+- name:        Davide Branduardi
+  affiliation: Schrödinger Inc.
+  city:        Cambridge
+  country:     UK
+- name:        Giovanni Bussi 
+  affiliation: International School for Advanced Studies
+  city:        Trieste 
+  country:     Italy 
+- name:        Carlo Camilloni 
+  affiliation: University of Milan
+  city:        Milan 
+  country:     Italy 
+- name:        Riccardo Capelli
+  affiliation: University of Milan 
+  city:        Milan 
+  country:     Italy
+- name:        Paolo Carloni
+  affiliation: Forschungszentrum Jülich
+  city:        Jülich
+  country:     Germany
+- name:        Michele Ceriotti
+  affiliation: Ecole polytechnique fédérale de Lausanne
+  city:        Lausanne
+  country:     Switzerland
+- name:        Andrea Cesari
+  affiliation: International School for Advanced Studies
+  city:        Trieste
+  country:     Italy
+- name:        Haochuan Chen
+  affiliation: Nankai University
+  city:        Tianjin
+  country:     China
+- name:        Wei Chen
+  affiliation: University of Illinois
+  city:        Urbana-Champaign
+  country:     USA
+- name:        Francesco Colizzi
+  affiliation: Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology (BIST)
+  city:        Barcelona
+  country:     Spain
+- name:        Sandip De
+  affiliation: BASF
+  city:        Ludwigshafen
+  country:     Germany
+- name:        Jayashrita Debnath
+  affiliation: Max Plank Institute of Biophysics
+  city:        Frankfurt
+  country:     Germany
+- name:        Marco DeLaPierre
+  affiliation: Pawsey Supercomputing Centre
+  city:        Kensington
+  country:     Australia
+- name:        Davide Donadio
+  affiliation: University of California Davis
+  city:        Davis
+  country:     USA
+- name:        Viktor Drobot
+  affiliation: Lomonosov Moscow State University
+  city:        Moscow
+  country:     Russia
+- name:        Bernd Ensing
+  affiliation: University of Amsterdam
+  city:        Amsterdam
+  country:     The Netherlands
+- name:        Andrew Ferguson
+  affiliation: University of Chicago
+  city:        Chicago
+  country:     USA
+- name:        Marta Filizola
+  affiliation: Icahn School of Medicine at Mount Sinai 
+  city:        New York
+  country:     USA
+- name:        James Fraser
+  affiliation: University of California San Francisco
+  city:        San Francisco
+  country:     USA
+- name:        Haohao Fu
+  affiliation: Nankai University
+  city:        Tianjin 
+  country:     China
+- name:        Piero Gasparotto
+  affiliation: University College London
+  city:        London
+  country:     UK
+- name:        Francesco Luigi Gervasio
+  affiliation: University College London
+  city:        London
+  country:     UK
+- name:        Federico Giberti
+  affiliation: Ecole polytechnique fédérale de Lausanne
+  city:        Lausanne
+  country:     Switzerland
+- name:        Alejandro Gil-Ley
+  affiliation: National Institutes of Health
+  city:        Bethesda
+  country:     USA 
+- name:        Toni Giorgino
+  affiliation: CNR-IBF, National Research Council
+  city:        Milan
+  country:     Italy
+- name:        Gabriella T. Heller
+  affiliation: University of Cambridge
+  city:        Cambridge
+  country:     UK
+- name:        Glen M. Hocky
+  affiliation: New York University
+  city:        New York
+  country:     USA
+- name:        Marcella Iannuzzi
+  affiliation: University of Zurich
+  city:        Zurich
+  country:     Switzerland
+- name:        Michele Invernizzi
+  affiliation: Freie Universität Berlin
+  city:        Berlin
+  country:     Germany
+- name:        Kim Jelfs 
+  affiliation: Imperial College London
+  city:        London 
+  country:     UK 
+- name:        Alexander Jussupow
+  affiliation: Technische Universität München
+  city:        Munich
+  country:     Germany
+- name:        Evgeny Kirilin
+  affiliation: Lomonosov Moscow State University
+  city:        Moscow
+  country:     Russia
+- name:        Alessandro Laio
+  affiliation: International School for Advanced Studies
+  city:        Trieste
+  country:     Italy
+- name:        Olivier Languin-Cattoën
+  affiliation: International School for Advanced Studies
+  city:        Trieste
+  country:     Italy
+- name:        Vittorio Limongelli
+  affiliation: Università della Svizzera italiana
+  city:        Lugano
+  country:     Switzerland
+- name:        Kresten Lindorff-Larsen
+  affiliation: University of Copenhagen
+  city:        Copenhagen
+  country:     Denmark
+- name:        Thomas Löhr
+  affiliation: University of Cambridge
+  city:        Cambridge
+  country:     UK
+- name:        Fabrizio Marinelli
+  affiliation: National Institutes of Health
+  city:        Bethesda
+  country:     USA
+- name:        Layla Martin-Samos
+  affiliation: CNR-IOM Democritos
+  city:        Trieste
+  country:     Italy
+- name:        Matteo Masetti
+  affiliation: University of Bologna
+  city:        Bologna
+  country:     Italy
+- name:        Ralf Meyer
+  affiliation: Graz University of Technology
+  city:        Graz
+  country:     Austria
+- name:        Angelos Michaelides
+  affiliation: University College London
+  city:        London
+  country:     UK
+- name:        Carla Molteni
+  affiliation: King's College London
+  city:        London
+  country:     UK
+- name:        Tetsuya Morishita
+  affiliation: National Institute of Advanced Industrial Science and Technology
+  city:        Tsukuba
+  country:     Japan
+- name:        Marco Nava
+  affiliation: University of Illinois
+  city:        Urbana-Champaign
+  country:     USA
+- name:        Cristina Paissoni
+  affiliation: University of Milan
+  city:        Milan
+  country:     Italy 
+- name:        Elena Papaleo
+  affiliation: Danish Cancer Society Research Center
+  city:        Copenhagen
+  country:     Denmark
+- name:        Michele Parrinello
+  affiliation: ETH Zurich and Università della Svizzera italiana
+  city:        Lugano
+  country:     Switzerland
+- name:        Jim Pfaendtner
+  affiliation: University of Washington
+  city:        Seattle
+  country:     USA
+- name:        Pablo M. Piaggi
+  affiliation: Princeton University
+  city:        Princeton
+  country:     USA
+- name:        GiovanniMaria Piccini
+  affiliation: ETH Zurich and Università della Svizzera italiana
+  city:        Lugano
+  country:     Switzerland
+- name:        Adriana Pietropaolo
+  affiliation: University of Catanzaro
+  city:        Catanzaro
+  country:     Italy
+- name:        Fabio Pietrucci
+  affiliation: Sorbonne Université
+  city:        Paris
+  country:     France
+- name:        Silvio Pipolo
+  affiliation: Université de Lille
+  city:        Lille
+  country:     France
+- name:        Davide Provasi
+  affiliation: Icahn School of Medicine at Mount Sinai 
+  city:        New York
+  country:     USA
+- name:        David Quigley
+  affiliation: University of Warwick
+  city:        Coventry
+  country:     UK 
+- name:        Paolo Raiteri
+  affiliation: Curtin University
+  city:        Perth
+  country:     Australia
+- name:        Stefano Raniolo
+  affiliation: Università della Svizzera italiana
+  city:        Lugano
+  country:     Switzerland
+- name:        Jakub Rydzewski
+  affiliation: Nicolaus Copernicus University
+  city:        Torun 
+  country:     Poland
+- name:        Matteo Salvalaglio
+  affiliation: University College London
+  city:        London
+  country:     UK
+- name:        Gabriele Cesare Sosso
+  affiliation: University of Warwick
+  city:        Coventry
+  country:     UK
+- name:        Vojtech Spiwok
+  affiliation: University of Chemistry and Technology
+  city:        Prague
+  country:     Czech Republic
+- name:        Jiří Šponer
+  affiliation: Institute of Biophysics of the Czech Academy of Sciences
+  city:        Brno
+  country:     Czech Republic
+- name:        David W. H. Swenson
+  affiliation: École Normale Supérieure de Lyon 
+  city:        Lyon
+  country:     France 
+- name:        Pratyush Tiwary
+  affiliation: University of Maryland
+  city:        College Park
+  country:     USA
+- name:        Gareth Tribello 
+  affiliation: Queen’s University Belfast 
+  city:        Belfast
+  country:     UK 
+- name:        Omar Valsson
+  affiliation: University of North Texas
+  city:        Denton
+  country:     USA
+- name:        Michele Vendruscolo
+  affiliation: University of Cambridge
+  city:        Cambridge
+  country:     UK
+- name:        Gregory A. Voth
+  affiliation: University of Chicago
+  city:        Chicago
+  country:     USA
+- name:        Yong Wang
+  affiliation: University of Copenhagen 
+  city:        Copenhagen 
+  country:     Denmark
+- name:        Andrew White
+  affiliation: University of Rochester
+  city:        Rochester
+  country:     USA

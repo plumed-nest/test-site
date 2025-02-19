@@ -1,0 +1,29 @@
+**Project ID:** [plumID:22.016]({{ '/' | absolute_url }}eggs/22/016/)  
+Stderr for source:  SurfaceFreeEnergy/FindOptimalParameters/FindOptimalOrderParameter-SmallEnv/IceIh/plumed-base.dat   
+Download: [zipped raw stdout](plumed-base.dat.plumed_master.stdout.txt.zip) - [zipped raw stderr](plumed-base.dat.plumed_master.stderr.txt.zip) 
+{% raw %}
+<pre>
+#! Only the first 1000 rows of the error file are shown below
+#! To inspect the full error file, please download the zipped raw stderr file above
+terminate called after throwing an instance of 'PLMD::Plumed::ExceptionError'
+what():
+(core/Action.cpp:375) void PLMD::Action::error(const std::string&) const
+ERROR in input to action DUMPGRID with label @54 : keyword ARG is compulsory for this action
+[fv-az1436-30:08329] *** Process received signal ***
+[fv-az1436-30:08329] Signal: Aborted (6)
+[fv-az1436-30:08329] Signal code:  (-6)
+[fv-az1436-30:08329] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7f5698445330]
+[fv-az1436-30:08329] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x11c)[0x7f569849eb2c]
+[fv-az1436-30:08329] [ 2] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0x1e)[0x7f569844527e]
+[fv-az1436-30:08329] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xdf)[0x7f56984288ff]
+[fv-az1436-30:08329] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa5ff5)[0x7f56988a5ff5]
+[fv-az1436-30:08329] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xbb0da)[0x7f56988bb0da]
+[fv-az1436-30:08329] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(_ZSt10unexpectedv+0x0)[0x7f56988a5a55]
+[fv-az1436-30:08329] [ 7] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xa5a6f)[0x7f56988a5a6f]
+[fv-az1436-30:08329] [ 8] plumed_master(+0x146dd)[0x55833e9ba6dd]
+[fv-az1436-30:08329] [ 9] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7f569842a1ca]
+[fv-az1436-30:08329] [10] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7f569842a28b]
+[fv-az1436-30:08329] [11] plumed_master(+0x15365)[0x55833e9bb365]
+[fv-az1436-30:08329] *** End of error message ***
+</pre>
+{% endraw %}

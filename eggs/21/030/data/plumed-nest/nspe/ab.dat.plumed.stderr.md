@@ -1,0 +1,9 @@
+**Project ID:** [plumID:21.030]({{ '/' | absolute_url }}eggs/21/030/)  
+Stderr for source:  plumed-nest/nspe/ab.dat   
+Download: [zipped raw stdout](ab.dat.plumed.stdout.txt.zip) - [zipped raw stderr](ab.dat.plumed.stderr.txt.zip) 
+{% raw %}
+<pre>
+#! Only the first 1000 rows of the error file are shown below
+#! To inspect the full error file, please download the zipped raw stderr file above
+</pre>
+{% endraw %}
