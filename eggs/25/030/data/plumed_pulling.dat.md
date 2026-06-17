@@ -1,0 +1,25 @@
+**Project ID:** [plumID:25.030]({{ '/' | absolute_url }}eggs/25/030/)  
+**Source:** plumed_pulling.dat  
+**Originally used with PLUMED version:** 2.5.2  
+**Stable:** [zipped raw stdout](plumed_pulling.dat.plumed.stdout.txt.zip) - [zipped raw stderr](plumed_pulling.dat.plumed.stderr.txt.zip) - [stderr](plumed_pulling.dat.plumed.stderr)  
+**Master:** [zipped raw stdout](plumed_pulling.dat.plumed_master.stdout.txt.zip) - [zipped raw stderr](plumed_pulling.dat.plumed_master.stderr.txt.zip) - [stderr](plumed_pulling.dat.plumed_master.stderr)  
+
+{% raw %}
+<div class="plumedInputContainer">
+<div class="plumedpreheader">
+<div class="headerInfo" id="value_details_data/plumed_pulling.dat"> Click on the labels of the actions for more information on what each action computes </div>
+<div class="containerBadge">
+<div class="headerBadge"><a href="plumed_pulling.dat.plumed.stderr"><img src="https://img.shields.io/badge/v2.10-failed-red.svg" alt="tested onv2.10" /></a></div>
+<div class="headerBadge"><a href="plumed_pulling.dat.plumed_master.stderr"><img src="https://img.shields.io/badge/master-failed-red.svg" alt="tested onmaster" /></a></div>
+</div>
+</div>
+<pre class="plumedlisting">
+<span class="plumedtooltip" style="color:green">UNITS<span class="right">This command sets the internal units for the code. <a href="https://www.plumed.org/doc-master/user-doc/html/UNITS" style="color:green">More details</a><i></i></span></span> <span class="plumedtooltip">LENGTH<span class="right">the units of lengths<i></i></span></span>=A
+<span style="display:none;" id="data/plumed_pulling.dat">The UNITS action with label <b></b> calculates something</span><b name="data/plumed_pulling.datcv1" onclick='showPath("data/plumed_pulling.dat","data/plumed_pulling.datcv1","data/plumed_pulling.datcv1","brown")'>cv1</b>: <span class="plumedtooltip" style="color:green">PYTHONCV<span class="right">This action is not part of PLUMED and was included by using a LOAD command <a href="https://www.plumed.org/doc-master/user-doc/html/LOAD" style="color:green">More details</a><i></i></span></span> ATOMS=1-500 IMPORT=Model_con_0 FUNCTION=cv1 
+
+<b name="data/plumed_pulling.datres" onclick='showPath("data/plumed_pulling.dat","data/plumed_pulling.datres","data/plumed_pulling.datres","brown")'>res</b>: <span class="plumedtooltip" style="color:green">MOVINGRESTRAINT<span class="right">Add a time-dependent, harmonic restraint on one or more variables. <a href="https://www.plumed.org/doc-master/user-doc/html/MOVINGRESTRAINT" style="color:green">More details</a><i></i></span></span> <span class="plumedtooltip">ARG<span class="right">the labels of the scalars on which the bias will act<i></i></span></span>=cv1 <span class="plumedtooltip">AT0<span class="right">ATx is equal to the position of the restraint at time STEPx<i></i></span></span>=0 <span class="plumedtooltip">AT1<span class="right">ATx is equal to the position of the restraint at time STEPx<i></i></span></span>=15 <span class="plumedtooltip">KAPPA0<span class="right">KAPPAx is equal to the value of the force constants at time STEPx<i></i></span></span>=1 <span class="plumedtooltip">STEP0<span class="right">This keyword appears multiple times as STEPx with x=0,1,2,<i></i></span></span>=0 <span class="plumedtooltip">STEP1<span class="right">This keyword appears multiple times as STEPx with x=0,1,2,<i></i></span></span>=100000
+
+<span style="display:none;" id="data/plumed_pulling.datres">The MOVINGRESTRAINT action with label <b>res</b> calculates the following quantities:<table  align="center" frame="void" width="95%" cellpadding="5%"><tr><td width="5%"><b> Quantity </b>  </td><td><b> Description </b> </td></tr><tr><td width="5%">res.bias</td><td>the instantaneous value of the bias potential</td></tr><tr><td width="5%">res.work</td><td>the total work performed changing this restraint</td></tr><tr><td width="5%">res.force2</td><td>the instantaneous value of the squared force due to this bias potential</td></tr><tr><td width="5%">res._cntr</td><td>one or multiple instances of this quantity can be referenced elsewhere in the input file</td></tr><tr><td width="5%">res._work</td><td>one or multiple instances of this quantity can be referenced elsewhere in the input file</td></tr><tr><td width="5%">res._kappa</td><td>one or multiple instances of this quantity can be referenced elsewhere in the input file</td></tr></table></span><span class="plumedtooltip" style="color:green">PRINT<span class="right">Print quantities to a file. <a href="https://www.plumed.org/doc-master/user-doc/html/PRINT" style="color:green">More details</a><i></i></span></span> <span class="plumedtooltip">FILE<span class="right">the name of the file on which to output these quantities<i></i></span></span>=colvar.out <span class="plumedtooltip">ARG<span class="right">the labels of the values that you would like to print to the file<i></i></span></span>=* <span class="plumedtooltip">STRIDE<span class="right"> the frequency with which the quantities of interest should be output<i></i></span></span>=100
+</pre></div>
+
+{% endraw %}
